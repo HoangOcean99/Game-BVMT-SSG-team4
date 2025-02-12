@@ -1,0 +1,4107 @@
+fileFormatVersion: 2
+guid: 645afadbfc5a782429dbe56ea7ed599b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4321578912242209838
+    second: MauBien1_4k-removebg-preview_0
+  - first:
+      213: -1864254455009924555
+    second: MauBien1_4k-removebg-preview_1
+  - first:
+      213: 5915305198591521855
+    second: MauBien1_4k-removebg-preview_2
+  - first:
+      213: -7449837167782117899
+    second: MauBien1_4k-removebg-preview_3
+  - first:
+      213: 1610217472376221709
+    second: MauBien1_4k-removebg-preview_4
+  - first:
+      213: -7607743865139018905
+    second: MauBien1_4k-removebg-preview_5
+  - first:
+      213: 1298081699458403686
+    second: MauBien1_4k-removebg-preview_6
+  - first:
+      213: 8781903568754894692
+    second: MauBien1_4k-removebg-preview_7
+  - first:
+      213: 179698143345645553
+    second: MauBien1_4k-removebg-preview_8
+  - first:
+      213: -7611709519743356425
+    second: MauBien1_4k-removebg-preview_9
+  - first:
+      213: 420139358111530869
+    second: MauBien1_4k-removebg-preview_10
+  - first:
+      213: -4835315919544618975
+    second: MauBien1_4k-removebg-preview_11
+  - first:
+      213: 5642966816644865881
+    second: MauBien1_4k-removebg-preview_12
+  - first:
+      213: 4423977501335484785
+    second: MauBien1_4k-removebg-preview_13
+  - first:
+      213: 15544450558699120
+    second: MauBien1_4k-removebg-preview_14
+  - first:
+      213: -6766380675125767881
+    second: MauBien1_4k-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 869
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34b11cccb2671250800000000000000
+      internalID: 5915305198591521855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 650
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 2.001603, y: 0.26641846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20310bae9904ae4b939cba7b138c266
+      internalID: -763815028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 634
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63e5550f75b3bf4b8971e7945c33793
+      internalID: -324844642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 618
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45a9dbf4b3e8474db322d10462bf93f
+      internalID: -1884972034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 650
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c607b29b2a4d14d4dbdc34d3b898f155
+      internalID: -1161099596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 634
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.34312186, y: 0.6247947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce494f4b72b943408b1f4f46e68e37f
+      internalID: -856734330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 618
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0753440ab50e64baa8752e9c57ac66
+      internalID: -507877600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 650
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3051f5e96f049f64b839078fc98bf4dc
+      internalID: 1255400322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 634
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd689b668a54da4d909648f3eb46356
+      internalID: 1255493948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 618
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b052efa93d9ee40adfd48f39e71f58
+      internalID: 262731708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 650
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.10780462, y: 0.83772784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8a649056983f340a0fa99089eca92a
+      internalID: -493281014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 634
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 16, y: 0, z: 0, w: 16}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ce17677351fd9498f4079be1e1b8a7
+      internalID: -1695252201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 618
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: -0.10790329, y: 0.82683647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a06b84ca9d18f41b9984ceb5ebaeb3
+      internalID: -1035233367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 869
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c1763ff1a30fa428c5b589ea8a4c6e
+      internalID: 824899022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 869
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32196426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738f83135d4323240b6c75bff10d13ae
+      internalID: 2072606241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f903e0ac3f612254bb360889e519a742
+      internalID: -1529571007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62c39b1469edab418348fa8430a9754
+      internalID: 227793628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e267d18029fee4aa7f28511c9c08d7
+      internalID: -1235324720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 901
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.56962585, y: 0.3955574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eb5a49efe01334db512b78b745ed2a
+      internalID: 2073772185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0bcaaca0853e54b812a0ed82e48a5d
+      internalID: -398402417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36391b3c7f854443905bdeceeaf45ce
+      internalID: -817637698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e091e352b813ef43a4b9b6520c5a229
+      internalID: -1502033011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 899
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2b691c8ed7ee44cb010dd9a7b9cb7a
+      internalID: 722042646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 899
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84edb43a4ee9ad1479d8da3d257d4760
+      internalID: -1107861987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 899
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dd45dab20ebf64b91f9edece42b144
+      internalID: 166074120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 883
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2626ce579b85e934997a4aea581ce05d
+      internalID: -1935277085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 883
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf4dee0c2ff5fd48a14e5e92e125d88
+      internalID: 201961700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 883
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf0a64581d332b43af1528127c5ba29
+      internalID: 1878758732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1542cddf02ba4faccc6acc15bcd98
+      internalID: 395796068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 867
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927b49e44f284545a324d9ea6bfc5d5
+      internalID: -1038452392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 900
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04f9c29d48e61148a8ce45c3a39dde2
+      internalID: 294002962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea9a833e0f10964fbe1aafb9cd6e15c
+      internalID: 799839075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 900
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486c751e5117e0d48aa2eb4e6d33fdc3
+      internalID: 281547287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9292eb7ff8cfed54e9e97b7f7bdf065e
+      internalID: -571346965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 884
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf1e6643aef07143a4268833419fe09
+      internalID: 780670643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 884
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd512ed7ea2cb1428f84085b51041f0
+      internalID: -957979631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 884
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4a4803a034c00429041e806b3e1236
+      internalID: -2072510785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9c8a52a64e15243bce879e78fce206
+      internalID: 255860136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d4896999788fb409fd00d2dfeff665
+      internalID: 932411806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8455db98fa6891f42bb2aade98907b59
+      internalID: -619728804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ae6e807a171b645911ecc341f8d217
+      internalID: -1980824605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c62040c366b5b4aa5d647cacaf4591
+      internalID: 501367043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2af75d9d2b40d43b84aa5092536584
+      internalID: -1703415076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352461ca4e8141b45817575d6cd8d3e9
+      internalID: 2123854156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7542dd7d5994b24fba2dee98936d724
+      internalID: -864224691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2bfe29f60626b4b8d60bacd9f9d9a3
+      internalID: -202864728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 869
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e9aa8cf8be779428b471aceb7ad874
+      internalID: -1480825150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 853
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e4248a59a59054e9d11df51d85d981
+      internalID: -730389901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 869
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c40fff49c101ab40998663b875476dc
+      internalID: 766172833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 869
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ae7c37f2d44f443968c11ccb6db078
+      internalID: 1051762470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 869
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75abc1db04a5c247987f5b5c513c8ce
+      internalID: -799738560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 833
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1514629c7560b41afc24b55acbda1e
+      internalID: 2017303677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 849
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.45015574, y: 0.4999962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0c36e7989cfb489891da994f9836d
+      internalID: 1411076124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 849
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a164a650970014b9028e96f31bd491
+      internalID: -924815726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 833
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea93897601333674085e7dad5f862ca9
+      internalID: -1403218493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 833
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91e273ab09e6854b84acf6568911e68
+      internalID: -1543641013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 849
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd60c90d524ed4eb1162694d56253b
+      internalID: -1978050246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 849
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0a436616c5a37499029893537b3c5f
+      internalID: 392271805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 833
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a46d5c5e59e60342921c32ffc965bc4
+      internalID: 230554520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 833
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7025c65377f061b4ab0ef64b58545f41
+      internalID: -1806591029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 849
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dce80af54b1c841818d961bdf948fd
+      internalID: 1973218436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 849
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb89d2596506264d9f35e96a9a8b06d
+      internalID: -1174085817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 833
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb20deb93ed8c24885f10c8787ab467
+      internalID: 1055468474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4836d58631ab3734aa96b33b79bb39a7
+      internalID: -78768118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f12a99a6f118b4298d664c361c9b48
+      internalID: -1092795663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e910a27674055774ca339e7ec038ee47
+      internalID: -1794134943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 801
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9074b8affe14f60429dfed6227786dd5
+      internalID: -1233277262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b4d6f6754001244982f98fd63596bc
+      internalID: -423078667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 801
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bca32ddd24c3274f942ea936406f66a
+      internalID: -1297501299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 801
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a4717d8944820469d427a433afbca4
+      internalID: 669559742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27136d2529cd1c4eaa14be527232856
+      internalID: 2030343512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20efb11afe93cbd439614ccde43ef748
+      internalID: 334918580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321dc0aff7d129f41a0ceb1d35901ec4
+      internalID: -808198410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cc463350fce3f48a376f333643494a
+      internalID: -1228626090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 801
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645f768691190634dad343b3062fd619
+      internalID: 407272622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 801
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c47d41bf11275429f0e6de5580f5d0
+      internalID: -1018306660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894cf6635cbcdd44490e1a7e4b530a9c
+      internalID: 993914333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc47bf928f1b3e48a8c270d08b2429c
+      internalID: -841396338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35f2838697ecb34c94b391c3dcea72f
+      internalID: 1179820682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 801
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d7e1d82f239cb4aa82c973552d7983
+      internalID: 1581813608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea631dc5644302943980dc2cc132d56d
+      internalID: 108913531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930025b3617de084b8151025ef40a45e
+      internalID: 211430866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2ca87fe4497624e88725dbecef6cb9
+      internalID: -1468600676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d04f13ead76434ca34e22814b2dee1
+      internalID: -528930691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cf6c292b0a49646bd1bec8cd22bb4a
+      internalID: 613065475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcef808c0cbdaa749a6f3314a051f8b4
+      internalID: 1442750214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c09cc08465503418653ff09132d329
+      internalID: -1306877212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89c3c553c6fc6144a324ec273ffdaa7
+      internalID: 1637706297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75db305f91e58444da0821c1464abcd8
+      internalID: -880837025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9dc46572cf12046a3c7c7ddc79510c
+      internalID: 1041868609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830c8eabb40f37c4caa3e8e150685e20
+      internalID: 774912538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501120cb5a6e93d4596f1886ec20e69e
+      internalID: -1768477245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8084281be7ae8147852bb37b121e85a
+      internalID: 689978584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b66dd808081084e89f4b5ba66b1b86
+      internalID: 486777933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d175ec21a0a7b7b4096be50ab1bdad03
+      internalID: -1382456832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9377686e35f7f954699d09129ab06f8d
+      internalID: 1076488097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846e42ef5e6459d408aa8ceb32c3dcf4
+      internalID: 413550966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801b115d5ac20c24da111e2eb3ca8868
+      internalID: 80740431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb60496ee6764f8478753bdfc846f44d
+      internalID: -977447979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd31a2ffef0f8b47a6c3f54d4867574
+      internalID: -441981132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce8e6a6bff21314d9133d87a94c4c7a
+      internalID: 1523314013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0887b106365df41a130f2ebeefaf6a
+      internalID: -189358605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112199f625293994087f7e1698de12ec
+      internalID: 2023319022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a46e9009adcdc24aa2b2f866a7d2f08
+      internalID: 460755272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4c8d524e9c9514090dac235f8be6f7
+      internalID: 1753393768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_149
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fb6d98957c20245beefa966316d912
+      internalID: -1563750071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc0d604aaafcc0428a20e8891fcda4a
+      internalID: 93146324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_151
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d8223269a69724ea1beb3906c217d3
+      internalID: 1126813001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_152
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f7620813d008c449a7577dc12b87b6
+      internalID: -838744314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_153
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 767
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306c66b976ee9847b8369188087e92d
+      internalID: 1081952027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_154
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dc4b2ae4845b44fbf1ae8cecddfe12
+      internalID: -2078814362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_155
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca8da12649bcee47b88f11da6983ecb
+      internalID: -1048577205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccb927333616c44a97d6f7f19a02ef5
+      internalID: -1692964415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_157
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bc4a82993baad4cb3d6d8a378897d8
+      internalID: -82760238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_158
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 747
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68cbdc0ede5078489e185a576a66078
+      internalID: -2100738896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 731
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115a48359f57b8b4ca5eeee33be16670
+      internalID: -1526562005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d1a3e9ec3c5e149b829dfb5708b184
+      internalID: 1412268637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_161
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 699
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240ffde01bb84c4bbad00a9cdaa846b
+      internalID: 1960852197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_162
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 731
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527d478d460c52e41ab2158751809238
+      internalID: -2031612683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_163
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 731
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c955e64d6f5584f8e158d88c4a46a2
+      internalID: 1130912420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_164
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec377a8de21aae2428ce2d30ad68f8dd
+      internalID: 1322102888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_165
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 699
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590fd5becf512654b951c2e51db530b3
+      internalID: -959620037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_166
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada00e3dc0e396547ad3ba265ad91048
+      internalID: 698704264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_167
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 699
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f754e18b1e51340897a0d22621eebb
+      internalID: 627192726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_168
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8b816f765c7cd4cb33681bfb984826
+      internalID: -170937547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_169
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25d6a743198c344186f5e9ab23d4c4a
+      internalID: -16724138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_170
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 735
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e816d4272a149ab4090a4ecd8c07fa2c
+      internalID: 1842534604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_171
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 719
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df2517638c80f34085ec42ceaa2ccff
+      internalID: 398442661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_172
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 735
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893ba87ec4d169a41aed740bd4e0f26c
+      internalID: 53634764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_173
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 719
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1fa6b9349460343b419287c43d906f
+      internalID: 738613684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_174
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a74c8f1797db4ea77e2febd3da863
+      internalID: 1787176347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_175
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ef520da073ff40a671d06f01af465
+      internalID: 1750365660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_176
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3ea0864c9e8544ebca3e8de3917589
+      internalID: -2075895426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_177
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 751
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e485219da5e44688022f288aacf51
+      internalID: -680544526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_178
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 735
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145ad038a09e85b4d81494669c8674b9
+      internalID: -1596393513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_179
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 735
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b671ab580204994ca59e34d40bfe787
+      internalID: -2040674511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_180
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 719
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d78e1aaf6e4f84198af05db73126ce
+      internalID: 1972766789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_181
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 719
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5a4fbb2ed97df42b928c4a721e3ace
+      internalID: 428782263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_182
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 735
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6cbebb706c3d543a9d5d5979765138
+      internalID: -1578906761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_183
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 735
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda9380790117b64cb93e5c106dde1a5
+      internalID: -493486893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_184
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 719
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb97cb261f1ee674fbcad1c469c9caac
+      internalID: 641191096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_185
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 719
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.4396801, y: 0.5000038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3f67e199e00b44794047bcf2142e7f
+      internalID: 234029949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_186
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 765
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.48659134, y: 0.5000038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b9b3df607e32249a21f526c7f6b146
+      internalID: 1197530136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_187
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd271d1466cd56c4c81f1f586af5f62a
+      internalID: 1300695285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_188
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2c60a80165f614cb503fed33fae07e
+      internalID: -1788910147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_189
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4341eebfd2fca604d8e7c22632f7ee04
+      internalID: 1328453307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_190
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e0c21f23e250419659a5da282686f
+      internalID: -771756150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_191
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6acae1d7ac9b547a73d1749ec5e45a
+      internalID: -1292546138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_192
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72768307aa419e245af1040f342ccf02
+      internalID: 922919707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_193
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb792e96dbe98d43b53a962cb2461d9
+      internalID: -759763111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_194
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77da69c738e75843926b84e40c780ce
+      internalID: -615752769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_195
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a53f3d384f5c4d8b167ac76107151
+      internalID: -1856255443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_196
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3462e805008e5b1458eb1f2f393635d5
+      internalID: 147329077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_197
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a1b75cf74b4c347994e5faee88458a
+      internalID: -960154994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 683
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b9ce8671dfaee499d6cabbf75e4e13
+      internalID: -1357006145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_200
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 683
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27556ab28e075074ba0b4d05b9e59ee5
+      internalID: 2135013830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 667
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82308c5c27a4dc47b8bcd9845bbc61a
+      internalID: 33274319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_202
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 667
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95825d3187ca58c4d8a14152880b2180
+      internalID: -267097140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_203
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 699
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b44ef1ba1a26e4cab8fd7f6930668b
+      internalID: 1082093135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_204
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 683
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0392bfb2284fc43a2aef44dfc45c30
+      internalID: -675779756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_205
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 667
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca047753274a264d9f48ae26657bdc5
+      internalID: 1312241639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_206
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 699
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c9becac7da7314d84ec38925fc5592
+      internalID: 1820075257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_207
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 699
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542eae1741909744d9a3b777091df315
+      internalID: 1157419276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_208
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 683
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d8ab0854f1c3944a594c1219f079ec
+      internalID: -191621288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_209
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 683
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0748eb497395b469dc2c40a437e3b7
+      internalID: 985118530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_210
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 667
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201565471ffa80b4aae8f9adf2fee575
+      internalID: -1231375954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview_211
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 667
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611055ccd764e3d46b9e4edc4a9ccc0e
+      internalID: 752152409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview 1_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c09a1c897fcd4596fc0a4d8e0471e
+      internalID: -455689594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ac0df44b75537b248a8068872205e067
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MauBien1_4k-removebg-preview 1_0: -455689594
+      MauBien1_4k-removebg-preview_0: 4321578912242209838
+      MauBien1_4k-removebg-preview_1: -1864254455009924555
+      MauBien1_4k-removebg-preview_10: 420139358111530869
+      MauBien1_4k-removebg-preview_100: -1978050246
+      MauBien1_4k-removebg-preview_101: 392271805
+      MauBien1_4k-removebg-preview_102: 230554520
+      MauBien1_4k-removebg-preview_103: -1806591029
+      MauBien1_4k-removebg-preview_104: 1973218436
+      MauBien1_4k-removebg-preview_105: -1174085817
+      MauBien1_4k-removebg-preview_106: 1055468474
+      MauBien1_4k-removebg-preview_107: -78768118
+      MauBien1_4k-removebg-preview_108: -1092795663
+      MauBien1_4k-removebg-preview_109: -1794134943
+      MauBien1_4k-removebg-preview_11: -4835315919544618975
+      MauBien1_4k-removebg-preview_110: -1233277262
+      MauBien1_4k-removebg-preview_111: -423078667
+      MauBien1_4k-removebg-preview_112: -1297501299
+      MauBien1_4k-removebg-preview_113: 669559742
+      MauBien1_4k-removebg-preview_114: 2030343512
+      MauBien1_4k-removebg-preview_115: 334918580
+      MauBien1_4k-removebg-preview_116: -808198410
+      MauBien1_4k-removebg-preview_117: -1228626090
+      MauBien1_4k-removebg-preview_118: 407272622
+      MauBien1_4k-removebg-preview_119: -1018306660
+      MauBien1_4k-removebg-preview_12: 5642966816644865881
+      MauBien1_4k-removebg-preview_120: 993914333
+      MauBien1_4k-removebg-preview_121: -841396338
+      MauBien1_4k-removebg-preview_122: 1179820682
+      MauBien1_4k-removebg-preview_123: 1581813608
+      MauBien1_4k-removebg-preview_124: 108913531
+      MauBien1_4k-removebg-preview_125: 211430866
+      MauBien1_4k-removebg-preview_126: -1468600676
+      MauBien1_4k-removebg-preview_127: -528930691
+      MauBien1_4k-removebg-preview_128: 613065475
+      MauBien1_4k-removebg-preview_129: 1442750214
+      MauBien1_4k-removebg-preview_13: 4423977501335484785
+      MauBien1_4k-removebg-preview_130: -1306877212
+      MauBien1_4k-removebg-preview_131: 1637706297
+      MauBien1_4k-removebg-preview_132: -880837025
+      MauBien1_4k-removebg-preview_133: 1041868609
+      MauBien1_4k-removebg-preview_134: 774912538
+      MauBien1_4k-removebg-preview_135: -1768477245
+      MauBien1_4k-removebg-preview_136: 689978584
+      MauBien1_4k-removebg-preview_137: 486777933
+      MauBien1_4k-removebg-preview_138: -1382456832
+      MauBien1_4k-removebg-preview_139: 1076488097
+      MauBien1_4k-removebg-preview_14: 15544450558699120
+      MauBien1_4k-removebg-preview_140: 413550966
+      MauBien1_4k-removebg-preview_141: 80740431
+      MauBien1_4k-removebg-preview_142: -977447979
+      MauBien1_4k-removebg-preview_143: -441981132
+      MauBien1_4k-removebg-preview_144: 1523314013
+      MauBien1_4k-removebg-preview_145: -189358605
+      MauBien1_4k-removebg-preview_146: 2023319022
+      MauBien1_4k-removebg-preview_147: 460755272
+      MauBien1_4k-removebg-preview_148: 1753393768
+      MauBien1_4k-removebg-preview_149: -1563750071
+      MauBien1_4k-removebg-preview_15: -6766380675125767881
+      MauBien1_4k-removebg-preview_150: 93146324
+      MauBien1_4k-removebg-preview_151: 1126813001
+      MauBien1_4k-removebg-preview_152: -838744314
+      MauBien1_4k-removebg-preview_153: 1081952027
+      MauBien1_4k-removebg-preview_154: -2078814362
+      MauBien1_4k-removebg-preview_155: -1048577205
+      MauBien1_4k-removebg-preview_156: -1692964415
+      MauBien1_4k-removebg-preview_157: -82760238
+      MauBien1_4k-removebg-preview_158: -2100738896
+      MauBien1_4k-removebg-preview_159: -1526562005
+      MauBien1_4k-removebg-preview_16: -1336589984
+      MauBien1_4k-removebg-preview_160: 1412268637
+      MauBien1_4k-removebg-preview_161: 1960852197
+      MauBien1_4k-removebg-preview_162: -2031612683
+      MauBien1_4k-removebg-preview_163: 1130912420
+      MauBien1_4k-removebg-preview_164: 1322102888
+      MauBien1_4k-removebg-preview_165: -959620037
+      MauBien1_4k-removebg-preview_166: 698704264
+      MauBien1_4k-removebg-preview_167: 627192726
+      MauBien1_4k-removebg-preview_168: -170937547
+      MauBien1_4k-removebg-preview_169: -16724138
+      MauBien1_4k-removebg-preview_17: -1616952211
+      MauBien1_4k-removebg-preview_170: 1842534604
+      MauBien1_4k-removebg-preview_171: 398442661
+      MauBien1_4k-removebg-preview_172: 53634764
+      MauBien1_4k-removebg-preview_173: 738613684
+      MauBien1_4k-removebg-preview_174: 1787176347
+      MauBien1_4k-removebg-preview_175: 1750365660
+      MauBien1_4k-removebg-preview_176: -2075895426
+      MauBien1_4k-removebg-preview_177: -680544526
+      MauBien1_4k-removebg-preview_178: -1596393513
+      MauBien1_4k-removebg-preview_179: -2040674511
+      MauBien1_4k-removebg-preview_18: 1474038889
+      MauBien1_4k-removebg-preview_180: 1972766789
+      MauBien1_4k-removebg-preview_181: 428782263
+      MauBien1_4k-removebg-preview_182: -1578906761
+      MauBien1_4k-removebg-preview_183: -493486893
+      MauBien1_4k-removebg-preview_184: 641191096
+      MauBien1_4k-removebg-preview_185: 234029949
+      MauBien1_4k-removebg-preview_186: 1197530136
+      MauBien1_4k-removebg-preview_187: 1300695285
+      MauBien1_4k-removebg-preview_188: -1788910147
+      MauBien1_4k-removebg-preview_189: 1328453307
+      MauBien1_4k-removebg-preview_19: -357614661
+      MauBien1_4k-removebg-preview_190: -771756150
+      MauBien1_4k-removebg-preview_191: -1292546138
+      MauBien1_4k-removebg-preview_192: 922919707
+      MauBien1_4k-removebg-preview_193: -759763111
+      MauBien1_4k-removebg-preview_194: -615752769
+      MauBien1_4k-removebg-preview_195: -1856255443
+      MauBien1_4k-removebg-preview_196: 147329077
+      MauBien1_4k-removebg-preview_197: -960154994
+      MauBien1_4k-removebg-preview_198: -1906785088
+      MauBien1_4k-removebg-preview_199: -1357006145
+      MauBien1_4k-removebg-preview_2: 5915305198591521855
+      MauBien1_4k-removebg-preview_20: 1663744059
+      MauBien1_4k-removebg-preview_200: 2135013830
+      MauBien1_4k-removebg-preview_201: 33274319
+      MauBien1_4k-removebg-preview_202: -267097140
+      MauBien1_4k-removebg-preview_203: 1082093135
+      MauBien1_4k-removebg-preview_204: -675779756
+      MauBien1_4k-removebg-preview_205: 1312241639
+      MauBien1_4k-removebg-preview_206: 1820075257
+      MauBien1_4k-removebg-preview_207: 1157419276
+      MauBien1_4k-removebg-preview_208: -191621288
+      MauBien1_4k-removebg-preview_209: 985118530
+      MauBien1_4k-removebg-preview_21: 343967432
+      MauBien1_4k-removebg-preview_210: -1231375954
+      MauBien1_4k-removebg-preview_211: 752152409
+      MauBien1_4k-removebg-preview_212: 1925289554
+      MauBien1_4k-removebg-preview_213: 1329344612
+      MauBien1_4k-removebg-preview_214: -1684166612
+      MauBien1_4k-removebg-preview_215: -1365841956
+      MauBien1_4k-removebg-preview_216: 1657469864
+      MauBien1_4k-removebg-preview_217: -1782830050
+      MauBien1_4k-removebg-preview_218: 1375375889
+      MauBien1_4k-removebg-preview_22: -352170236
+      MauBien1_4k-removebg-preview_23: 1909415310
+      MauBien1_4k-removebg-preview_24: -2099651452
+      MauBien1_4k-removebg-preview_25: 2063031110
+      MauBien1_4k-removebg-preview_26: -1261503411
+      MauBien1_4k-removebg-preview_27: -429980663
+      MauBien1_4k-removebg-preview_28: 638265587
+      MauBien1_4k-removebg-preview_29: 698764804
+      MauBien1_4k-removebg-preview_3: -7449837167782117899
+      MauBien1_4k-removebg-preview_30: -451881270
+      MauBien1_4k-removebg-preview_31: -1124041974
+      MauBien1_4k-removebg-preview_32: -675833816
+      MauBien1_4k-removebg-preview_33: -462161767
+      MauBien1_4k-removebg-preview_34: -2108741621
+      MauBien1_4k-removebg-preview_35: -1014326577
+      MauBien1_4k-removebg-preview_36: 157383817
+      MauBien1_4k-removebg-preview_37: -323782238
+      MauBien1_4k-removebg-preview_38: -1770536476
+      MauBien1_4k-removebg-preview_39: -1117167234
+      MauBien1_4k-removebg-preview_4: 1610217472376221709
+      MauBien1_4k-removebg-preview_40: -583395277
+      MauBien1_4k-removebg-preview_41: 1558568719
+      MauBien1_4k-removebg-preview_42: 319661585
+      MauBien1_4k-removebg-preview_43: 663763464
+      MauBien1_4k-removebg-preview_44: -721276101
+      MauBien1_4k-removebg-preview_45: -763815028
+      MauBien1_4k-removebg-preview_46: -324844642
+      MauBien1_4k-removebg-preview_47: -1884972034
+      MauBien1_4k-removebg-preview_48: -1161099596
+      MauBien1_4k-removebg-preview_49: -856734330
+      MauBien1_4k-removebg-preview_5: -7607743865139018905
+      MauBien1_4k-removebg-preview_50: -507877600
+      MauBien1_4k-removebg-preview_51: 1255400322
+      MauBien1_4k-removebg-preview_52: 1255493948
+      MauBien1_4k-removebg-preview_53: 262731708
+      MauBien1_4k-removebg-preview_54: -493281014
+      MauBien1_4k-removebg-preview_55: -1695252201
+      MauBien1_4k-removebg-preview_56: -1035233367
+      MauBien1_4k-removebg-preview_57: 824899022
+      MauBien1_4k-removebg-preview_58: 2072606241
+      MauBien1_4k-removebg-preview_59: -1529571007
+      MauBien1_4k-removebg-preview_6: 1298081699458403686
+      MauBien1_4k-removebg-preview_60: 227793628
+      MauBien1_4k-removebg-preview_61: -1235324720
+      MauBien1_4k-removebg-preview_62: 2073772185
+      MauBien1_4k-removebg-preview_63: -398402417
+      MauBien1_4k-removebg-preview_64: -817637698
+      MauBien1_4k-removebg-preview_65: -1502033011
+      MauBien1_4k-removebg-preview_66: 722042646
+      MauBien1_4k-removebg-preview_67: -1107861987
+      MauBien1_4k-removebg-preview_68: 166074120
+      MauBien1_4k-removebg-preview_69: -1935277085
+      MauBien1_4k-removebg-preview_7: 8781903568754894692
+      MauBien1_4k-removebg-preview_70: 201961700
+      MauBien1_4k-removebg-preview_71: 1878758732
+      MauBien1_4k-removebg-preview_72: 395796068
+      MauBien1_4k-removebg-preview_73: -1038452392
+      MauBien1_4k-removebg-preview_74: 294002962
+      MauBien1_4k-removebg-preview_75: 799839075
+      MauBien1_4k-removebg-preview_76: 281547287
+      MauBien1_4k-removebg-preview_77: -571346965
+      MauBien1_4k-removebg-preview_78: 780670643
+      MauBien1_4k-removebg-preview_79: -957979631
+      MauBien1_4k-removebg-preview_8: 179698143345645553
+      MauBien1_4k-removebg-preview_80: -2072510785
+      MauBien1_4k-removebg-preview_81: 255860136
+      MauBien1_4k-removebg-preview_82: 932411806
+      MauBien1_4k-removebg-preview_83: -619728804
+      MauBien1_4k-removebg-preview_84: -1980824605
+      MauBien1_4k-removebg-preview_85: 501367043
+      MauBien1_4k-removebg-preview_86: 2017303677
+      MauBien1_4k-removebg-preview_87: -1703415076
+      MauBien1_4k-removebg-preview_88: 2123854156
+      MauBien1_4k-removebg-preview_89: -864224691
+      MauBien1_4k-removebg-preview_9: -7611709519743356425
+      MauBien1_4k-removebg-preview_90: -202864728
+      MauBien1_4k-removebg-preview_91: 1411076124
+      MauBien1_4k-removebg-preview_92: -1480825150
+      MauBien1_4k-removebg-preview_93: -730389901
+      MauBien1_4k-removebg-preview_94: 766172833
+      MauBien1_4k-removebg-preview_95: 1051762470
+      MauBien1_4k-removebg-preview_96: -799738560
+      MauBien1_4k-removebg-preview_97: -924815726
+      MauBien1_4k-removebg-preview_98: -1403218493
+      MauBien1_4k-removebg-preview_99: -1543641013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
