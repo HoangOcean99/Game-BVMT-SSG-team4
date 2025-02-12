@@ -193,28 +193,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MauBien1_4k-removebg-preview_45
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 650
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 2.001603, y: 0.26641846}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e20310bae9904ae4b939cba7b138c266
-      internalID: -763815028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MauBien1_4k-removebg-preview_46
       rect:
         serializedVersion: 2
@@ -232,28 +210,6 @@ TextureImporter:
       bones: []
       spriteID: a63e5550f75b3bf4b8971e7945c33793
       internalID: -324844642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MauBien1_4k-removebg-preview_47
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 618
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b45a9dbf4b3e8474db322d10462bf93f
-      internalID: -1884972034
       vertices: []
       indices: 
       edges: []
@@ -391,28 +347,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MauBien1_4k-removebg-preview_54
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 650
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.10780462, y: 0.83772784}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e8a649056983f340a0fa99089eca92a
-      internalID: -493281014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: MauBien1_4k-removebg-preview_55
       rect:
         serializedVersion: 2
@@ -430,28 +364,6 @@ TextureImporter:
       bones: []
       spriteID: f0ce17677351fd9498f4079be1e1b8a7
       internalID: -1695252201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MauBien1_4k-removebg-preview_56
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 618
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: -0.10790329, y: 0.82683647}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70a06b84ca9d18f41b9984ceb5ebaeb3
-      internalID: -1035233367
       vertices: []
       indices: 
       edges: []
@@ -3875,7 +3787,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3897,7 +3809,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3919,7 +3831,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3963,7 +3875,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3985,7 +3897,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4007,7 +3919,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4029,7 +3941,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4051,7 +3963,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4073,7 +3985,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4095,7 +4007,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4117,7 +4029,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4139,7 +4051,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4148,6 +4060,94 @@ TextureImporter:
       bones: []
       spriteID: a1062ff0469ec784ca8cd69cb70521e9
       internalID: -518368367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview 1_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 618
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f52494d830fa6e4dbfc53589e85711c
+      internalID: 571677538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview 1_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 618
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e0eaba7483134b8314319e8b93f22
+      internalID: -902256418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview 1_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 650
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138885731dd0f3478f2ed85956055d7
+      internalID: 93887490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MauBien1_4k-removebg-preview 1_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 650
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645fc8a40808faa45b6b2d5644c41318
+      internalID: -786411293
       vertices: []
       indices: 
       edges: []
@@ -4172,6 +4172,10 @@ TextureImporter:
       MauBien1_4k-removebg-preview 1_11: 350518029
       MauBien1_4k-removebg-preview 1_12: -107153851
       MauBien1_4k-removebg-preview 1_13: -518368367
+      MauBien1_4k-removebg-preview 1_14: 571677538
+      MauBien1_4k-removebg-preview 1_15: -902256418
+      MauBien1_4k-removebg-preview 1_16: 93887490
+      MauBien1_4k-removebg-preview 1_17: -786411293
       MauBien1_4k-removebg-preview 1_2: -2094191136
       MauBien1_4k-removebg-preview 1_3: 1240422641
       MauBien1_4k-removebg-preview 1_4: 123935070
