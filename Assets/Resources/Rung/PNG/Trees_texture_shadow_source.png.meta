@@ -1135,7 +1135,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trees_texture_shadow_source_0: 8838743298257785366
+      Trees_texture_shadow_source_1: 3795676726905049549
+      Trees_texture_shadow_source_10: 8271377666968888575
+      Trees_texture_shadow_source_11: -1815746879081758712
+      Trees_texture_shadow_source_12: -2240836333222049404
+      Trees_texture_shadow_source_13: 9077140123247501252
+      Trees_texture_shadow_source_14: 73569005762084439
+      Trees_texture_shadow_source_15: 3707060553474593809
+      Trees_texture_shadow_source_16: -8966071246024387819
+      Trees_texture_shadow_source_17: 3736488178201400564
+      Trees_texture_shadow_source_18: 1356791789429184687
+      Trees_texture_shadow_source_19: 3625007442833465053
+      Trees_texture_shadow_source_2: 8813151671928166539
+      Trees_texture_shadow_source_20: 4549551554353574598
+      Trees_texture_shadow_source_21: 4790568919264485543
+      Trees_texture_shadow_source_22: 1673462360505094752
+      Trees_texture_shadow_source_23: -2921079694608172159
+      Trees_texture_shadow_source_24: 96585662469360973
+      Trees_texture_shadow_source_25: -7438491558881395659
+      Trees_texture_shadow_source_26: -3893484184765769665
+      Trees_texture_shadow_source_27: 9017608867744202575
+      Trees_texture_shadow_source_28: 7210206277597342000
+      Trees_texture_shadow_source_29: -1290169275034413172
+      Trees_texture_shadow_source_3: -1867864041272763641
+      Trees_texture_shadow_source_30: -2373430007356250853
+      Trees_texture_shadow_source_31: -8647261016242938334
+      Trees_texture_shadow_source_32: -3765628139577088975
+      Trees_texture_shadow_source_33: -4461106155967983715
+      Trees_texture_shadow_source_34: 7172734431687517586
+      Trees_texture_shadow_source_35: -5377111718343772914
+      Trees_texture_shadow_source_36: 3182725924681655283
+      Trees_texture_shadow_source_37: -8333981410322288950
+      Trees_texture_shadow_source_38: 2619634053759625631
+      Trees_texture_shadow_source_39: -8218238324678266745
+      Trees_texture_shadow_source_4: 4793198738772046709
+      Trees_texture_shadow_source_5: -681140752180689262
+      Trees_texture_shadow_source_6: 2288567780891641419
+      Trees_texture_shadow_source_7: -5006402345265240682
+      Trees_texture_shadow_source_8: -1717972681813747857
+      Trees_texture_shadow_source_9: -1607964125517939021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
