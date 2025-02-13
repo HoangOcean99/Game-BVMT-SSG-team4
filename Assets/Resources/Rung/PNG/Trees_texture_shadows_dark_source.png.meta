@@ -1135,7 +1135,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trees_texture_shadows_dark_source_0: 4206128331854850859
+      Trees_texture_shadows_dark_source_1: -4877734958640585440
+      Trees_texture_shadows_dark_source_10: -8436931717165383827
+      Trees_texture_shadows_dark_source_11: -6699076053712931173
+      Trees_texture_shadows_dark_source_12: -3405260432575312370
+      Trees_texture_shadows_dark_source_13: -8200883494760116026
+      Trees_texture_shadows_dark_source_14: -9094678282835082156
+      Trees_texture_shadows_dark_source_15: -3636036211586619309
+      Trees_texture_shadows_dark_source_16: -3523638182975928951
+      Trees_texture_shadows_dark_source_17: -1034263112395929958
+      Trees_texture_shadows_dark_source_18: 8798776066777678279
+      Trees_texture_shadows_dark_source_19: -5459203498915013965
+      Trees_texture_shadows_dark_source_2: -1384202894685114097
+      Trees_texture_shadows_dark_source_20: -7278641035455284091
+      Trees_texture_shadows_dark_source_21: 5270610699308109053
+      Trees_texture_shadows_dark_source_22: -9103455554972288075
+      Trees_texture_shadows_dark_source_23: -5760566183489688258
+      Trees_texture_shadows_dark_source_24: 2623024703908667607
+      Trees_texture_shadows_dark_source_25: -8500324946952658534
+      Trees_texture_shadows_dark_source_26: -1754824647845214116
+      Trees_texture_shadows_dark_source_27: 2869697629830557494
+      Trees_texture_shadows_dark_source_28: -7116406199015907407
+      Trees_texture_shadows_dark_source_29: -7104856552759208011
+      Trees_texture_shadows_dark_source_3: -574249128258605528
+      Trees_texture_shadows_dark_source_30: -5873687231963580046
+      Trees_texture_shadows_dark_source_31: 8008530842247117491
+      Trees_texture_shadows_dark_source_32: -8959574539409397326
+      Trees_texture_shadows_dark_source_33: -8203234747780411900
+      Trees_texture_shadows_dark_source_34: 7898589732794727320
+      Trees_texture_shadows_dark_source_35: 996669892668223951
+      Trees_texture_shadows_dark_source_36: 4758248808724552995
+      Trees_texture_shadows_dark_source_37: 4383548536455816794
+      Trees_texture_shadows_dark_source_38: 7557649512480853538
+      Trees_texture_shadows_dark_source_39: 3745265243281201679
+      Trees_texture_shadows_dark_source_4: -7552022326074127784
+      Trees_texture_shadows_dark_source_5: -4994771776808766202
+      Trees_texture_shadows_dark_source_6: -813905415782299904
+      Trees_texture_shadows_dark_source_7: 5858826967822943431
+      Trees_texture_shadows_dark_source_8: -755011853082922646
+      Trees_texture_shadows_dark_source_9: 2069914780902647202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
