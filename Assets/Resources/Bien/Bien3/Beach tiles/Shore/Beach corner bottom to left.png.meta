@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beach corner bottom to left_0: 7091923236646695966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
