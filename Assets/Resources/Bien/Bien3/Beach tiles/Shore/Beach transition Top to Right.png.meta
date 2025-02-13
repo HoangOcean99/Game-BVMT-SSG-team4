@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beach transition Top to Right_0: -2131741836606891059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
