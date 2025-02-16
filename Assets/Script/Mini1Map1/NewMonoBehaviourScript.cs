@@ -1,13 +1,12 @@
-using System;
+﻿using System;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class DiChuyenObjectbangChuot : MonoBehaviour
-{
+public class NewMonoBehaviourScript : MonoBehaviour
+{ 
     private Camera mainCamera;
     private Vector3 distanceMouseObject;
     private Boolean isDragging = false;
-    public string tagThuRac;
+    public String tagThuRac;
     public GameObject objectRac;
 
 
@@ -54,6 +53,6 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
         {
             transform.position = GetMouseWorldPosition() + distanceMouseObject;
         }
-        
+
     }
 }

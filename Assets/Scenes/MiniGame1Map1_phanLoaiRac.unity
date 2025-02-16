@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 38765019}
   m_Layer: 0
   m_Name: dochoi_Frame_1
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,6 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 0}
 --- !u!61 &38765019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -278,7 +280,7 @@ GameObject:
   - component: {fileID: 39484877}
   m_Layer: 0
   m_Name: RecycleBin_0
-  m_TagString: Untagged
+  m_TagString: ThungRacHuuCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -324,8 +326,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1195541831
-  m_SortingLayer: 1
+  m_SortingLayerID: 75744431
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -6893537376006008535, guid: 31fc97aec57fd20479f434b0a9cadc7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -383,7 +385,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -515,7 +517,7 @@ GameObject:
   - component: {fileID: 194034481}
   m_Layer: 0
   m_Name: cookingpan2_0
-  m_TagString: Untagged
+  m_TagString: RacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,6 +604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!70 &194034481
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -652,7 +656,7 @@ GameObject:
   - component: {fileID: 210559058}
   m_Layer: 0
   m_Name: Yellow recycle bin_0
-  m_TagString: Untagged
+  m_TagString: ThungRacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,8 +702,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1195541831
-  m_SortingLayer: 1
+  m_SortingLayerID: 75744431
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 6543854011602193253, guid: 795976bf8c67fcb4ab7c892b99d32d58, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -757,7 +761,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -787,7 +791,7 @@ GameObject:
   - component: {fileID: 247698201}
   m_Layer: 0
   m_Name: thungnhom2_0
-  m_TagString: Untagged
+  m_TagString: RacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -874,6 +878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!61 &247698201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -980,7 +986,7 @@ GameObject:
   - component: {fileID: 282826460}
   m_Layer: 0
   m_Name: Xuongdongvat
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1067,6 +1073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 0}
 --- !u!65 &282826460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1102,7 +1110,7 @@ GameObject:
   - component: {fileID: 368671067}
   m_Layer: 0
   m_Name: milk_0
-  m_TagString: Untagged
+  m_TagString: RacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1189,6 +1197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!61 &368671067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1249,7 +1259,7 @@ GameObject:
   - component: {fileID: 421337471}
   m_Layer: 0
   m_Name: dochoi_Frame_0
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1336,6 +1346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 0}
 --- !u!61 &421337471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1396,7 +1408,7 @@ GameObject:
   - component: {fileID: 425319029}
   m_Layer: 0
   m_Name: book2_0
-  m_TagString: Untagged
+  m_TagString: RacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1483,6 +1495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!61 &425319029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1543,7 +1557,7 @@ GameObject:
   - component: {fileID: 561470148}
   m_Layer: 0
   m_Name: tui nilon_Frame_0
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1630,6 +1644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 0}
 --- !u!61 &561470148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1660,7 +1676,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1843,7 +1859,7 @@ GameObject:
   - component: {fileID: 985616012}
   m_Layer: 0
   m_Name: mauthuocla
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,6 +1946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 0}
 --- !u!61 &985616012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1989,7 +2007,7 @@ GameObject:
   - component: {fileID: 1039141099}
   m_Layer: 0
   m_Name: Background
-  m_TagString: Untagged
+  m_TagString: TRVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27862,7 +27880,7 @@ GameObject:
   - component: {fileID: 1202817113}
   m_Layer: 0
   m_Name: glass_0
-  m_TagString: Untagged
+  m_TagString: RacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27949,6 +27967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!61 &1202817113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28008,7 +28028,7 @@ GameObject:
   - component: {fileID: 1202994127}
   m_Layer: 0
   m_Name: Redrecycle_0
-  m_TagString: Untagged
+  m_TagString: TRVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28054,8 +28074,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1195541831
-  m_SortingLayer: 1
+  m_SortingLayerID: 75744431
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 4071717089489047143, guid: bca6ae9411f4d9643b6b738d31e3d6a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -28113,7 +28133,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -28141,6 +28161,7 @@ GameObject:
   - component: {fileID: 1347438933}
   - component: {fileID: 1347438935}
   - component: {fileID: 1347438936}
+  - component: {fileID: 1347438937}
   m_Layer: 0
   m_Name: voso
   m_TagString: Untagged
@@ -28225,13 +28246,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347438932}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!70 &1347438936
-CapsuleCollider2D:
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 1347438932}
+--- !u!61 &1347438936
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -28265,8 +28288,31 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.125, y: 1.84375}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.46296296, y: -0.078431375}
+    oldSize: {x: 3.375, y: 3.1875}
+    newSize: {x: 3.375, y: 3.1875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   m_Size: {x: 3.375, y: 3.1875}
-  m_Direction: 0
+  m_EdgeRadius: 0
+--- !u!114 &1347438937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347438932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de427e9f4d12d8a4fb1be8de9192800c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: TRVoCo
+  objectRac: {fileID: 1347438932}
 --- !u!1 &1598564807
 GameObject:
   m_ObjectHideFlags: 0
@@ -28281,7 +28327,7 @@ GameObject:
   - component: {fileID: 1598564811}
   m_Layer: 0
   m_Name: quan ao cu_Frame_0
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28368,6 +28414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: ThungRacVoCo
+  objectRac: {fileID: 0}
 --- !u!70 &1598564811
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -28556,7 +28604,7 @@ GameObject:
   - component: {fileID: 1956501010}
   m_Layer: 0
   m_Name: chaithuytinh_Frame_0
-  m_TagString: Untagged
+  m_TagString: RacTaiDung
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28643,6 +28691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!61 &1956501010
 BoxCollider2D:
   m_ObjectHideFlags: 0
