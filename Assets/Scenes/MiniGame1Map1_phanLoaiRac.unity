@@ -201,8 +201,8 @@ Transform:
   m_GameObject: {fileID: 38765015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.74, y: 1.44, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12.0592, y: 2.1987, z: 0}
+  m_LocalScale: {x: 0.7872, y: 0.801, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagThuRac: ThungRacVoCo
-  objectRac: {fileID: 0}
+  objectRac: {fileID: 38765015}
 --- !u!61 &38765019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -255,7 +255,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03125, y: 2}
+  m_Offset: {x: -0.098538876, y: 1.887852}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5106383, y: -0.051724136}
@@ -265,7 +265,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.9375, y: 3.625}
+  m_Size: {x: 1.9057322, y: 2.7726703}
   m_EdgeRadius: 0
 --- !u!1 &39484874
 GameObject:
@@ -389,7 +389,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.06155348, y: -0.08610594}
+  m_Offset: {x: 0.014323473, y: 0.025388896}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -399,7 +399,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3099995, y: 2.4042284}
+  m_Size: {x: 2.4435186, y: 3.3209662}
   m_EdgeRadius: 0
 --- !u!1 &95223043
 GameObject:
@@ -515,6 +515,7 @@ GameObject:
   - component: {fileID: 194034478}
   - component: {fileID: 194034480}
   - component: {fileID: 194034481}
+  - component: {fileID: 194034482}
   m_Layer: 0
   m_Name: cookingpan2_0
   m_TagString: RacTaiDung
@@ -565,7 +566,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7818049456898578857, guid: d57f7e27752c2a9469600abb1b3e974d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -604,8 +605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagThuRac: 
-  objectRac: {fileID: 0}
+  tagThuRac: ThungRacTaiDung
+  objectRac: {fileID: 194034477}
 --- !u!70 &194034481
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -643,6 +644,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 2.375, y: 2}
   m_Direction: 0
+--- !u!114 &194034482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194034477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!1 &210559055
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +780,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.020515144, y: -0.2260006}
+  m_Offset: {x: 0.03851962, y: -0.043914855}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -775,7 +790,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3921198, y: 2.3527021}
+  m_Size: {x: 2.5019755, y: 3.4452186}
   m_EdgeRadius: 0
 --- !u!1 &247698197
 GameObject:
@@ -789,6 +804,7 @@ GameObject:
   - component: {fileID: 247698198}
   - component: {fileID: 247698200}
   - component: {fileID: 247698201}
+  - component: {fileID: 247698202}
   m_Layer: 0
   m_Name: thungnhom2_0
   m_TagString: RacTaiDung
@@ -839,7 +855,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2896448627238222021, guid: a364ae84cc2410d48a19e053301f860b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -878,8 +894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagThuRac: 
-  objectRac: {fileID: 0}
+  tagThuRac: ThungRacTaiDung
+  objectRac: {fileID: 247698197}
 --- !u!61 &247698201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -926,6 +942,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.875, y: 3.0625}
   m_EdgeRadius: 0
+--- !u!114 &247698202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247698197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!1 &265595637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagThuRac: ThungRacVoCo
-  objectRac: {fileID: 0}
+  objectRac: {fileID: 282826456}
 --- !u!65 &282826460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1108,6 +1138,7 @@ GameObject:
   - component: {fileID: 368671064}
   - component: {fileID: 368671066}
   - component: {fileID: 368671067}
+  - component: {fileID: 368671068}
   m_Layer: 0
   m_Name: milk_0
   m_TagString: RacTaiDung
@@ -1158,7 +1189,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5110731548806032159, guid: 6a4dab039485cd440b482ca6d0a560f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1197,8 +1228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagThuRac: 
-  objectRac: {fileID: 0}
+  tagThuRac: ThungRacTaiDung
+  objectRac: {fileID: 368671063}
 --- !u!61 &368671067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1245,6 +1276,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.625, y: 3.5}
   m_EdgeRadius: 0
+--- !u!114 &368671068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368671063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!1 &421337467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,8 +1373,8 @@ Transform:
   m_GameObject: {fileID: 421337467}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.76, y: 5.93, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -18.2809, y: 6.8725, z: 0}
+  m_LocalScale: {x: 0.7124996, y: 0.74002934, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1347,7 +1392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagThuRac: ThungRacVoCo
-  objectRac: {fileID: 0}
+  objectRac: {fileID: 421337467}
 --- !u!61 &421337471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1382,7 +1427,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.03125, y: 1.8125}
+  m_Offset: {x: 0.06732178, y: 1.6494758}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.4915254, y: 0}
@@ -1392,7 +1437,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.6875, y: 3.625}
+  m_Size: {x: 1.6405907, y: 2.245441}
   m_EdgeRadius: 0
 --- !u!1 &425319025
 GameObject:
@@ -1406,6 +1451,7 @@ GameObject:
   - component: {fileID: 425319026}
   - component: {fileID: 425319028}
   - component: {fileID: 425319029}
+  - component: {fileID: 425319030}
   m_Layer: 0
   m_Name: book2_0
   m_TagString: RacTaiDung
@@ -1456,7 +1502,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5597995755193609183, guid: f6154f54f82e01b478f8a4d97da9cb90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1495,8 +1541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagThuRac: 
-  objectRac: {fileID: 0}
+  tagThuRac: ThungRacTaiDung
+  objectRac: {fileID: 425319025}
 --- !u!61 &425319029
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1543,6 +1589,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.625, y: 2.25}
   m_EdgeRadius: 0
+--- !u!114 &425319030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425319025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!1 &561470144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,7 +1705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagThuRac: ThungRacVoCo
-  objectRac: {fileID: 0}
+  objectRac: {fileID: 561470144}
 --- !u!61 &561470148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1676,11 +1736,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.03125, y: 2}
+  m_Offset: {x: -0.058467865, y: 2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.4814815, y: -0.26190478}
@@ -1690,7 +1750,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.6875, y: 2.625}
+  m_Size: {x: 1.3286247, y: 2.1764069}
   m_EdgeRadius: 0
 --- !u!1 &825486656
 GameObject:
@@ -1947,7 +2007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagThuRac: ThungRacVoCo
-  objectRac: {fileID: 0}
+  objectRac: {fileID: 985616008}
 --- !u!61 &985616012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1982,7 +2042,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.3125, y: 2}
+  m_Offset: {x: -0.36382627, y: 1.8441226}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5925926, y: -0.071428575}
@@ -1992,7 +2052,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.375, y: 3.5}
+  m_Size: {x: 1.8351965, y: 1.9412417}
   m_EdgeRadius: 0
 --- !u!1 &1039141097
 GameObject:
@@ -27878,6 +27938,7 @@ GameObject:
   - component: {fileID: 1202817110}
   - component: {fileID: 1202817112}
   - component: {fileID: 1202817113}
+  - component: {fileID: 1202817114}
   m_Layer: 0
   m_Name: glass_0
   m_TagString: RacTaiDung
@@ -27928,7 +27989,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7111969943574635211, guid: 70180c9a6e6a1ef44801783e0acb0dc5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -27967,8 +28028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagThuRac: 
-  objectRac: {fileID: 0}
+  tagThuRac: ThungRacTaiDung
+  objectRac: {fileID: 1202817109}
 --- !u!61 &1202817113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28015,6 +28076,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.25, y: 1.625}
   m_EdgeRadius: 0
+--- !u!114 &1202817114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202817109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!1 &1202994124
 GameObject:
   m_ObjectHideFlags: 0
@@ -28028,7 +28103,7 @@ GameObject:
   - component: {fileID: 1202994127}
   m_Layer: 0
   m_Name: Redrecycle_0
-  m_TagString: TRVoCo
+  m_TagString: ThungRacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28137,7 +28212,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0000035762787, y: -0.044567823}
+  m_Offset: {x: 0.022231579, y: 0.23770046}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -28147,7 +28222,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.580863, y: 2.4570098}
+  m_Size: {x: 3.0386343, y: 3.8935938}
   m_EdgeRadius: 0
 --- !u!1 &1347438932
 GameObject:
@@ -28211,7 +28286,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7231447871401764518, guid: 8ebf89aa4cb12dd43be506e557239d72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28232,8 +28307,8 @@ Transform:
   m_GameObject: {fileID: 1347438932}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.79, y: 7.12, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.1017, y: 7.7423, z: 0}
+  m_LocalScale: {x: 0.8005, y: 0.819, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -28286,7 +28361,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.125, y: 1.84375}
+  m_Offset: {x: 0.14743114, y: 1.6867414}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.46296296, y: -0.078431375}
@@ -28296,7 +28371,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.375, y: 3.1875}
+  m_Size: {x: 2.1637983, y: 2.245452}
   m_EdgeRadius: 0
 --- !u!1 &1598564807
 GameObject:
@@ -28360,7 +28435,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9094963741530411384, guid: 681326b0dc1bcfe4da9fb6dfcfa2b117, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28381,8 +28456,8 @@ Transform:
   m_GameObject: {fileID: 1598564807}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.65, y: -1.69, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -18.001, y: -0.7667, z: 0}
+  m_LocalScale: {x: 0.8245, y: 0.7692, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -28400,7 +28475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagThuRac: ThungRacVoCo
-  objectRac: {fileID: 0}
+  objectRac: {fileID: 1598564807}
 --- !u!70 &1598564811
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -28435,8 +28510,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.21875, y: 2.03125}
-  m_Size: {x: 3.5625, y: 3.5625}
+  m_Offset: {x: -0.1514597, y: 2.03125}
+  m_Size: {x: 1.8129826, y: 3.5625}
   m_Direction: 0
 --- !u!1 &1837012134
 GameObject:
@@ -28587,6 +28662,7 @@ GameObject:
   - component: {fileID: 1956501007}
   - component: {fileID: 1956501009}
   - component: {fileID: 1956501010}
+  - component: {fileID: 1956501011}
   m_Layer: 0
   m_Name: chaithuytinh_Frame_0
   m_TagString: RacTaiDung
@@ -28637,7 +28713,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 75744431
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3702352654197708804, guid: c7d20e7fdabf29c4d8a7a1abfe695ab4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28676,8 +28752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagThuRac: 
-  objectRac: {fileID: 0}
+  tagThuRac: ThungRacTaiDung
+  objectRac: {fileID: 1956501006}
 --- !u!61 &1956501010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28724,6 +28800,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.375, y: 3.5625}
   m_EdgeRadius: 0
+--- !u!114 &1956501011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956501006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagThuRac: 
+  objectRac: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
