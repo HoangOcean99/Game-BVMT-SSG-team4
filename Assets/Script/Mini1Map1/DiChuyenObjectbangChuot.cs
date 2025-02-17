@@ -7,7 +7,9 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
     private Camera mainCamera;
     private Vector3 distanceMouseObject;
     private Boolean isDragging = false;
-    public String tagThuRac;
+    public String tagThuRacDung;
+    public String tagThuRacSai1;
+    public String tagThuRacSai2;
     public GameObject objectRac;
 
 
@@ -47,13 +49,13 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
         else
         {
             Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
-            if (hitCollider != null && hitCollider.CompareTag(tagThuRac))
+            if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
                 objectRac.SetActive(false);
             }
-            else if(hitCollider != null && !hitCollider.CompareTag(tagThuRac))
+            else if(hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2)))    
             {
-                Debug.Log("Sai roi");
+                Debug.Log("saiRoi");
             }
         }
         
