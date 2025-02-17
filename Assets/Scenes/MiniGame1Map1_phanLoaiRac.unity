@@ -389,7 +389,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.06155348, y: -0.08610594}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -399,7 +399,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5, y: 3.4375}
+  m_Size: {x: 1.3099995, y: 2.4042284}
   m_EdgeRadius: 0
 --- !u!1 &95223043
 GameObject:
@@ -765,7 +765,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.020515144, y: -0.2260006}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -775,7 +775,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5, y: 3.4375}
+  m_Size: {x: 1.3921198, y: 2.3527021}
   m_EdgeRadius: 0
 --- !u!1 &247698197
 GameObject:
@@ -28137,7 +28137,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0000035762787, y: -0.044567823}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -28147,7 +28147,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.5, y: 3.4375}
+  m_Size: {x: 1.580863, y: 2.4570098}
   m_EdgeRadius: 0
 --- !u!1 &1347438932
 GameObject:
@@ -28161,10 +28161,9 @@ GameObject:
   - component: {fileID: 1347438933}
   - component: {fileID: 1347438935}
   - component: {fileID: 1347438936}
-  - component: {fileID: 1347438937}
   m_Layer: 0
   m_Name: voso
-  m_TagString: Untagged
+  m_TagString: RacVoCo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28233,7 +28232,7 @@ Transform:
   m_GameObject: {fileID: 1347438932}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.58, y: 7.54, z: 0}
+  m_LocalPosition: {x: -2.79, y: 7.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28246,7 +28245,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347438932}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9cc3c3a9d83c83419122e270ad72852, type: 3}
   m_Name: 
@@ -28299,20 +28298,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.375, y: 3.1875}
   m_EdgeRadius: 0
---- !u!114 &1347438937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347438932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de427e9f4d12d8a4fb1be8de9192800c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tagThuRac: TRVoCo
-  objectRac: {fileID: 1347438932}
 --- !u!1 &1598564807
 GameObject:
   m_ObjectHideFlags: 0

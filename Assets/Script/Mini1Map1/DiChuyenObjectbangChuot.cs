@@ -12,18 +12,7 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Hu");
-        if (collision.gameObject.tag == "TRVoCo")
-        {
-            Debug.Log("Hellow");
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-
-    }
+    
 
     void Start()
     {
@@ -53,6 +42,16 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
         if (isDragging)
         {
             transform.position = GetMouseWorldPosition() + distanceMouseObject;
+        }
+        else
+        {
+            Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.5f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
+            if (hitCollider != null && hitCollider.CompareTag("TRVoCo"))
+            {
+                Debug.Log("hello");
+                //objectRac.SetActive(false);
+                // Destroy(gameObject); // Xóa đối tượng nếu cần
+            }
         }
         
     }
