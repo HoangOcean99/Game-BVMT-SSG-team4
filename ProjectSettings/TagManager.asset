@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - RacVoCo
+  - RacHuuCo
+  - RacTaiDung
+  - ThungRacVoCo
+  - ThungRacHuuCo
+  - ThungRacTaiDung
+  - TRVoCo
   layers:
   - Default
   - TransparentFX
