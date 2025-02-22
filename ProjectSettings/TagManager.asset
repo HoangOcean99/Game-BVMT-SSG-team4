@@ -11,6 +11,7 @@ TagManager:
   - ThungRacHuuCo
   - ThungRacTaiDung
   - TRVoCo
+  - TinhDiem
   layers:
   - Default
   - TransparentFX
