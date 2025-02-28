@@ -11,6 +11,7 @@ TagManager:
   - ThungRacHuuCo
   - ThungRacTaiDung
   - TRVoCo
+  - TinhDiem
   layers:
   - Default
   - TransparentFX
@@ -50,9 +51,6 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 1195541831
-    locked: 0
-  - name: top
-    uniqueID: 75744431
     locked: 0
   - name: item
     uniqueID: 3632351069
