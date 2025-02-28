@@ -52,14 +52,8 @@ TagManager:
   - name: background
     uniqueID: 1195541831
     locked: 0
-  - name: top
-    uniqueID: 75744431
-    locked: 0
   - name: item
     uniqueID: 3632351069
-    locked: 0
-  - name: Player
-    uniqueID: 897578355
     locked: 0
   m_RenderingLayers:
   - Default
