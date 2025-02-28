@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fontThungRacGreen_0: -5467043688778312157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
