@@ -12,6 +12,16 @@ TagManager:
   - ThungRacTaiDung
   - TRVoCo
   - TinhDiem
+  - Minigame1
+  - Minigame2
+  - Question1
+  - Question2
+  - Question3
+  - Question4
+  - Question5
+  - Question6
+  - Question7
+  - Question8
   layers:
   - Default
   - TransparentFX
@@ -54,6 +64,9 @@ TagManager:
     locked: 0
   - name: item
     uniqueID: 3632351069
+    locked: 0
+  - name: Arrow
+    uniqueID: 3840350549
     locked: 0
   m_RenderingLayers:
   - Default
