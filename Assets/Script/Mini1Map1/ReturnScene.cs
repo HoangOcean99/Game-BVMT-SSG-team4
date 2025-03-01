@@ -18,12 +18,10 @@ public class ReturnScene : MonoBehaviour
     {   
         button_returnScene.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(sceneHome);
-            //LoadSceneManager.DisableExtraAudioListeners();
-            //LoadSceneManager.HideScene(sceneCurrent);
-            //LoadSceneManager.ShowScene(sceneHome);
-            //LoadSceneManager.UnloadScene(sceneCurrent);
-
+            LoadSceneManager.DisableExtraAudioListeners();
+            LoadSceneManager.UnloadScene(sceneCurrent);
+            LoadSceneManager.HideScene(sceneCurrent);
+            LoadSceneManager.ShowScene(sceneHome);
         });
 
 
