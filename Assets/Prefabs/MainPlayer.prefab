@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1378275933006456410}
   - component: {fileID: 3260773803426523882}
   - component: {fileID: 5859578999977567001}
+  - component: {fileID: 7795623242292031779}
   m_Layer: 0
   m_Name: MainPlayer
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: -662616227
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5798786844825603827, guid: a0f7a7cc1334e6b47be35377a8783cd2, type: 3}
+  m_Sprite: {fileID: 8995687368948607733, guid: 7e1dade604898e645a68c104cec34706, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,7 +129,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rd2d: {fileID: 3315727136845012914}
+  mainPlayer: {fileID: 1864401423153261172}
   controller: 1
+  leftorRight: 0
+  upOrDown: 0
 --- !u!50 &3315727136845012914
 Rigidbody2D:
   serializedVersion: 4
@@ -217,4 +221,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73a816ce1cb9e264da8e8993f38807f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameMini1: 
+  panel_miniGame1: {fileID: 0}
+  panel_miniGame2: {fileID: 0}
+  panel_question1: {fileID: 0}
+  panel_question2: {fileID: 0}
+  panel_question3: {fileID: 0}
+  panel_question4: {fileID: 0}
+  panel_question5: {fileID: 0}
+  panel_question6: {fileID: 0}
+  panel_question7: {fileID: 0}
+  panel_question8: {fileID: 0}
+--- !u!114 &7795623242292031779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864401423153261172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e950e48afdaf50447a4a856c61615ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene: ThiTranScene
+  NameMini1: MiniGame1Map1_phanLoaiRac
+  NameMini2: MiniGame2Map1_neKhongKhi
+  button_panelMini1: {fileID: 0}
+  button_panelMini2: {fileID: 0}

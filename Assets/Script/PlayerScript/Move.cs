@@ -22,15 +22,6 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rd2d.GetComponent<Collider2D>() == null)
-        {
-            rd2d.gameObject.AddComponent<BoxCollider2D>(); // Thêm BoxCollider2D nếu chưa có
-        }
-        rd2d.WakeUp();
-        rd2d.simulated = true;
-        rd2d.isKinematic = false;
-        rd2d.gravityScale = 0; // Hoặc 0 nếu không muốn có trọng lực
-        rd2d.freezeRotation = true; // Ngăn xoay khi va chạm
         if (controller == 1)
         {
             ator.SetInteger("Move", 0);
@@ -41,14 +32,12 @@ public class Move : MonoBehaviour
                 leftorRight = 1;
                 mainPlayer.transform.localScale = new Vector2(1, transform.localScale.y);
                 ator.SetInteger("Move", 1);
-                Debug.Log("D");
             }
             if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
                 leftorRight = -1;
                 mainPlayer.transform.localScale = new Vector2(-1, transform.localScale.y);
                 ator.SetInteger("Move", 1); 
-                Debug.Log("A");
 
             }
             if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
@@ -65,7 +54,6 @@ public class Move : MonoBehaviour
             }
             rd2d.velocity = new Vector2(leftorRight * speedMove, rd2d.velocity.y);
             rd2d.velocity = new Vector2(rd2d.velocity.x, speedMove * upOrDown);
-            Debug.Log("hello");
         }
         if (controller == 2)
         {

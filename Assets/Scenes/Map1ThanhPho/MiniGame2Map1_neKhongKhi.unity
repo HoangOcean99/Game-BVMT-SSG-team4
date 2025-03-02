@@ -281,7 +281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDiemSo: {fileID: 466250304}
   objectNpc: {fileID: 174221685}
---- !u!1001 &439243776
+--- !u!1001 &332040700
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -291,27 +291,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1864401423153261172, guid: c864313171677b441a8d2d24dad6360c, type: 3}
       propertyPath: m_Name
-      value: MainPlayer 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1864401423153261172, guid: c864313171677b441a8d2d24dad6360c, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4394473382307749087, guid: c864313171677b441a8d2d24dad6360c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.1005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4394473382307749087, guid: c864313171677b441a8d2d24dad6360c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.9449
+      value: MainPlayer 1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4394473382307749087, guid: c864313171677b441a8d2d24dad6360c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.48
+      value: -16.1
       objectReference: {fileID: 0}
     - target: {fileID: 4394473382307749087, guid: c864313171677b441a8d2d24dad6360c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.52
+      value: 7.08
       objectReference: {fileID: 0}
     - target: {fileID: 4394473382307749087, guid: c864313171677b441a8d2d24dad6360c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -347,8 +335,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8526100144864824707, guid: c864313171677b441a8d2d24dad6360c, type: 3}
       propertyPath: controller
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8526100144864824707, guid: c864313171677b441a8d2d24dad6360c, type: 3}
+      propertyPath: mainPlayer
+      value: 
+      objectReference: {fileID: 332040701}
     m_RemovedComponents:
     - {fileID: 5859578999977567001, guid: c864313171677b441a8d2d24dad6360c, type: 3}
     m_RemovedGameObjects: []
@@ -356,20 +348,20 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1864401423153261172, guid: c864313171677b441a8d2d24dad6360c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 439243778}
+      addedObject: {fileID: 332040702}
   m_SourcePrefab: {fileID: 100100000, guid: c864313171677b441a8d2d24dad6360c, type: 3}
---- !u!1 &439243777 stripped
+--- !u!1 &332040701 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1864401423153261172, guid: c864313171677b441a8d2d24dad6360c, type: 3}
-  m_PrefabInstance: {fileID: 439243776}
+  m_PrefabInstance: {fileID: 332040700}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &439243778
+--- !u!114 &332040702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439243777}
+  m_GameObject: {fileID: 332040701}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d2bc0c803b88f54fb119b6a17188d04, type: 3}
@@ -19430,6 +19422,6 @@ SceneRoots:
   - {fileID: 565406067}
   - {fileID: 550164245}
   - {fileID: 768130173}
-  - {fileID: 439243776}
   - {fileID: 1844487956}
   - {fileID: 2064584790}
+  - {fileID: 332040700}
