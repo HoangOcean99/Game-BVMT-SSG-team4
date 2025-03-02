@@ -18,6 +18,7 @@ public class ReturnSceneMini2 : MonoBehaviour
             LoadSceneManager.UnloadScene(sceneCurrent);
             LoadSceneManager.HideScene(sceneCurrent);
             LoadSceneManager.ShowScene(sceneHome);
+            Time.timeScale = 1;
             checkMainPlayer();
             miniGame2.change = 1;
         });

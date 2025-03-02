@@ -7,26 +7,30 @@ public class Move : MonoBehaviour
     public GameObject mainPlayer;
     public int controller = 0;
 
-    private float leftorRight;
-    private float upOrDown;
+    public float leftorRight;
+    public float upOrDown;
     private float speedMove = 5f;
     private Animator ator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (rd2d.GetComponent<Collider2D>() == null)
-        {
-            rd2d.gameObject.AddComponent<BoxCollider2D>(); // Thêm BoxCollider2D nếu chưa có
-        }
+        
         ator = rd2d.GetComponent<Animator>();
-        rd2d.isKinematic = false;
-        rd2d.gravityScale = 0; // Nếu không muốn bị rơi
-        rd2d.freezeRotation = true;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (rd2d.GetComponent<Collider2D>() == null)
+        {
+            rd2d.gameObject.AddComponent<BoxCollider2D>(); // Thêm BoxCollider2D nếu chưa có
+        }
+        rd2d.WakeUp();
+        rd2d.simulated = true;
+        rd2d.isKinematic = false;
+        rd2d.gravityScale = 0; // Hoặc 0 nếu không muốn có trọng lực
+        rd2d.freezeRotation = true; // Ngăn xoay khi va chạm
         if (controller == 1)
         {
             ator.SetInteger("Move", 0);
