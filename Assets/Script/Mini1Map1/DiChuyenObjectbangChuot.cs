@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,13 +13,19 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
     public String tagThuRacSai2;
     public GameObject objectRac;
 
+    private TinhDiemMiniGame1 point;
+    private CountObject count;
+
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
+
 
     void Start()
     {
         mainCamera = Camera.main;
+        point = FindAnyObjectByType<TinhDiemMiniGame1>();
+        count = FindAnyObjectByType<CountObject>();
     }
 
 
@@ -52,10 +59,15 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
             if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
                 objectRac.SetActive(false);
+                point.diem++;
+                count.count++;
+
             }
             else if(hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2)))    
             {
-                Debug.Log("saiRoi");
+                objectRac.SetActive(false);
+                point.diem--;
+                count.count++;
             }
         }
         

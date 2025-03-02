@@ -71,4 +71,15 @@ public class LoadSceneManager : MonoBehaviour
             }
         }
     }
+    public static void disableEventSystem()
+    {
+        EventSystem[] eventSystems = FindObjectsOfType<EventSystem>();
+        if (eventSystems.Length > 1)
+        {
+            for (int i = 1; i < eventSystems.Length; i++)
+            {
+                Destroy(eventSystems[i].gameObject);
+            }
+        }
+    }
 }
