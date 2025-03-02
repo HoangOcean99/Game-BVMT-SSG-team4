@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TaoNgauNhienObject : MonoBehaviour
@@ -7,6 +8,8 @@ public class TaoNgauNhienObject : MonoBehaviour
 
     private int speedSpawn = 1;
     private DiemSoMinigame2 diemSoMinigame2;
+    public static List<GameObject> instantiatedObjects = new List<GameObject>();
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,7 +27,8 @@ public class TaoNgauNhienObject : MonoBehaviour
 
             Vector2 positionRandom = new Vector2(22.8f, positions[Random.Range(0, positions.Length)]);
 
-            Instantiate(randomObject, positionRandom, Quaternion.identity);
+            GameObject newObj = Instantiate(randomObject, positionRandom, Quaternion.identity);
+            instantiatedObjects.Add(newObj);
         }
     }
     // Update is called once per frame

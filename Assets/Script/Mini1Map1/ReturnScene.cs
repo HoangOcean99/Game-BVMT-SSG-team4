@@ -14,11 +14,6 @@ public class ReturnScene : MonoBehaviour
     void Start()
     {
         miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {   
         button_returnScene.onClick.AddListener(() =>
         {
             LoadSceneManager.DisableExtraAudioListeners();
@@ -29,8 +24,14 @@ public class ReturnScene : MonoBehaviour
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
             miniGame1.change = 1;
-            
+
         });
+    }
+
+    // Update is called once per frame
+    void Update()
+    {   
+        
 
 
     }

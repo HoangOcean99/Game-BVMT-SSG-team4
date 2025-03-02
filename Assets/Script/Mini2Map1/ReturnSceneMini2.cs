@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ReturnSceneMini2 : MonoBehaviour
@@ -7,15 +7,10 @@ public class ReturnSceneMini2 : MonoBehaviour
     public string sceneHome;
     public string sceneCurrent;
 
-    //private InstaceObjectMinigam1 miniGame1;
+    private InstaceObjectMinigame2 miniGame2;
     void Start()
     {
-        //miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        miniGame2 = FindAnyObjectByType<InstaceObjectMinigame2>();
         button_returnScene.onClick.AddListener(() =>
         {
             LoadSceneManager.DisableExtraAudioListeners();
@@ -23,11 +18,27 @@ public class ReturnSceneMini2 : MonoBehaviour
             LoadSceneManager.UnloadScene(sceneCurrent);
             LoadSceneManager.HideScene(sceneCurrent);
             LoadSceneManager.ShowScene(sceneHome);
-            LoadSceneManager.DisableExtraAudioListeners();
-            LoadSceneManager.disableEventSystem();
-            //miniGame1.change = 1;
+            checkMainPlayer();
+            miniGame2.change = 1;
         });
+    }
 
+    // Update is called once per frame  
+    void Update()
+    {
+        
+    }
+    public void checkMainPlayer()
+    {
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
 
+        if (players.Length > 1)
+        {
+            // Nếu có hơn 1 mainPlayer, xóa bớt 1 cái
+            for (int i = 1; i < players.Length; i++)
+            {
+                Destroy(players[i]);
+            }
+        }
     }
 }
