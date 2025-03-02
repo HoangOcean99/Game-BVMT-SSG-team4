@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2bc0c803b88f54fb119b6a17188d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  object_panelThongDiepMini2: {fileID: 1702716992}
 --- !u!1 &174221685
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,6 +2925,7 @@ GameObject:
   - component: {fileID: 1702716995}
   - component: {fileID: 1702716994}
   - component: {fileID: 1702716993}
+  - component: {fileID: 1702716996}
   m_Layer: 5
   m_Name: ThongDiepEndMinigame
   m_TagString: Untagged
@@ -2990,6 +2992,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 71}
   m_SizeDelta: {x: -333.46973, y: -166.80676}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1702716996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702716992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f69c0b542eb83641bc58c2cc9d3c196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_returnScene: {fileID: 1177582789}
+  sceneHome: ThiTranScene
+  sceneCurrent: MiniGame2Map1_neKhongKhi
 --- !u!1 &1769126996
 GameObject:
   m_ObjectHideFlags: 0

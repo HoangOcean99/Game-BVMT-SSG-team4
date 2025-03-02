@@ -18,23 +18,35 @@ public class DiChuyenObjectScipt : MonoBehaviour
     {
         if(diemSoMinigame2.point == 7)
         {
-            speedNPC = 5f;
+            speedNPC = 6f;
         }
         if (diemSoMinigame2.point == 15)
         {
-            speedNPC = 7f;
+            speedNPC = 10f;
         }
         if (diemSoMinigame2.point == 25)
         {
-            speedNPC = 10f;
+            speedNPC = 15f;
         }
         if (diemSoMinigame2.point == 30)
         {
-            speedNPC = 12f;
+            speedNPC = 20f;
         }
         if (diemSoMinigame2.point == 35)
         {
-            speedNPC = 15f;
+            speedNPC = 25f;
+        }
+        if (diemSoMinigame2.point == 45)
+        {
+            speedNPC = 30f;
+        }
+        if (diemSoMinigame2.point == 55)
+        {
+            speedNPC = 35f;
+        }
+        if (diemSoMinigame2.point == 65)
+        {
+            speedNPC = 40f;
         }
         transform.position = Vector2.MoveTowards(transform.position, startPosition + new Vector2(-60f, 0f), speedNPC * Time.deltaTime);
     }
