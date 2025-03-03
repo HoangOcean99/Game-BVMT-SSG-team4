@@ -3,9 +3,10 @@ using UnityEngine;
 
 public class TinhDiem : MonoBehaviour
 {
-    public long diemSo = 1;
     public TextMeshProUGUI textDiemSo;
     public GameObject objectNpc;
+
+    private DiemSoMinigame2 diemSo;
     /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "TinhDiem")
@@ -16,7 +17,8 @@ public class TinhDiem : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        textDiemSo.text = diemSo + "";
+        diemSo = FindAnyObjectByType<DiemSoMinigame2>();
+        textDiemSo.text = diemSo.point + "";
     }
 
     // Update is called once per frame
@@ -25,9 +27,9 @@ public class TinhDiem : MonoBehaviour
         Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
         if (hitCollider != null && hitCollider.CompareTag("TinhDiem"))
         {
-            diemSo+=1;
+            diemSo.point += 1;
             objectNpc.SetActive(false);
         }
-        textDiemSo.text = diemSo + "";
+        textDiemSo.text = diemSo.point + "";
     }
 }
