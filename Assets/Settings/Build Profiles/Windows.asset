@@ -20,10 +20,8 @@ MonoBehaviour:
   m_Scenes:
   - m_enabled: 1
     m_path: Assets/Scenes/Map1ThanhPho/ThiTranScene.unity
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/Map1ThanhPho/MiniGame1Map1_phanLoaiRac.unity
-  - m_enabled: 0
-    m_path: Assets/Scenes/Map1ThanhPho/MiniGame2Map1_neKhongKhi.unity
   - m_enabled: 0
     m_path: Assets/Scenes/Map2Rung/RungScene.unity
   - m_enabled: 0
