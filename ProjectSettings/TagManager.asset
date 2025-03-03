@@ -69,5 +69,8 @@ TagManager:
   - name: Arrow
     uniqueID: 3840350549
     locked: 0
+  - name: Player
+    uniqueID: 1854441027
+    locked: 0
   m_RenderingLayers:
   - Default
