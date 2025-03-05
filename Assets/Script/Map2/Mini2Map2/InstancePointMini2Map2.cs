@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+
+public class InstancePointMini2Map2 : MonoBehaviour
+{   
+    public static InstancePointMini2Map2 Instance { get; private set; }
+    public int point = 0;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject); // Xóa instance trùng lặp
+        }
+    }
+}
