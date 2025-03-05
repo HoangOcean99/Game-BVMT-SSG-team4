@@ -27,7 +27,8 @@ public class TraLoiCauHoi : MonoBehaviour
             mainQuestion.SetActive(false);
             foreach (GameObject obj in objectDisappear)
             {
-                obj.SetActive(false);
+                //obj.SetActive(false);
+                Destroy(obj);
             }
         });
         buttonCorrect.onClick.AddListener(() =>
