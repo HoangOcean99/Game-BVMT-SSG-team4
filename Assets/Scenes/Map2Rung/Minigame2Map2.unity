@@ -7132,7 +7132,7 @@ GameObject:
   - component: {fileID: 1474243445}
   - component: {fileID: 1474243446}
   m_Layer: 0
-  m_Name: InstancePoint (1)
+  m_Name: CountdownTime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7166,7 +7166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 771836458}
-  timeRemaining: 59
+  timeRemaining: 40
 --- !u!1 &1491030962
 GameObject:
   m_ObjectHideFlags: 0

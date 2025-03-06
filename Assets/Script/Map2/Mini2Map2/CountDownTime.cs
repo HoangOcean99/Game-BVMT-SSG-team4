@@ -5,7 +5,7 @@ using UnityEngine;
 public class CountDownTime : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
-    public float timeRemaining = 10f;
+    public float timeRemaining = 40f;
 
     void Start()
     {
