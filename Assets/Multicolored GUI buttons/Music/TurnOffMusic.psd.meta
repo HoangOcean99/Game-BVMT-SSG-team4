@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dbab49405da6959498691e437fc0812c
+guid: 41051ac25218cbf449d99fd3764b3595
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6611588512128272999
-    second: Fruit_tree2_0
+      213: -8800004215479930289
+    second: TurnOffMusic_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fruit_tree2_0
+      name: TurnOffMusic_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 29
-        width: 51
-        height: 69
+        x: 10
+        y: 11
+        width: 489
+        height: 489
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9957a85274bee34a0800000000000000
-      internalID: -6611588512128272999
+      spriteID: f42f06a5aca10e580800000000000000
+      internalID: -8800004215479930289
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Fruit_tree2_0: -6611588512128272999
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
