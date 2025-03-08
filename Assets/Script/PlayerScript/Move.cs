@@ -72,7 +72,7 @@ public class Move : MonoBehaviour
                 //transform.localScale = new Vector2(-1, transform.localScale.y);
                 ator.SetInteger("Move", 2);
             }
-            rd2d.velocity = new Vector2(rd2d.velocity.x, speedMove * upOrDown);
+            rd2d.velocity = new Vector2(rd2d.velocity.x, 7f * upOrDown);
         }
     }
 }
