@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Map1ThanhPho/IntroScene.unity
+    guid: ec8b8c9abbca6ac4a84ab177c5952ecb
+  - enabled: 1
     path: Assets/Scenes/Map1ThanhPho/ThiTranScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -14,12 +17,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map1ThanhPho/MiniGame1Map1_phanLoaiRac.unity
     guid: 590fc48be7b476248a7a16222ad7f8fb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Map2Rung/RungScene.unity
     guid: acb618da1844f6f4eb23477c6969813d
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Map2Rung/MInigame1Map2.unity
+    guid: 7c7583bcef02d5f43be19e9a70ad82b9
+  - enabled: 1
+    path: Assets/Scenes/Map2Rung/Minigame2Map2.unity
+    guid: aef112237393c754ebd933e2e91652df
+  - enabled: 1
     path: Assets/Scenes/Map3Bien/BienScene.unity
     guid: f5af80ea0f6118544b00d6b77e8219dd
+  - enabled: 1
+    path: Assets/Scenes/Map3Bien/Mini1Map3.unity
+    guid: cbcd0abe28b877d4abdaa144128129fd
+  - enabled: 1
+    path: Assets/Scenes/Map3Bien/Mini2Map3.unity
+    guid: bd7b8be8b84015043ad3d1f28b8f936a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
