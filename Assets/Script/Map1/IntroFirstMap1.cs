@@ -10,6 +10,7 @@ public class IntroFirstMap1 : MonoBehaviour
     public Button buttonXacNhan;
     public GameObject panelIntro1;
     public GameObject panelIntro2;
+    public GameObject panelMain;
 
     private InstanceVariables instanceVariable;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,6 +28,7 @@ public class IntroFirstMap1 : MonoBehaviour
         });
         buttonXacNhan.onClick.AddListener(() =>
         {
+            panelMain.SetActive(false);
             panelIntro2.SetActive(false);
             Time.timeScale = 1;
         });

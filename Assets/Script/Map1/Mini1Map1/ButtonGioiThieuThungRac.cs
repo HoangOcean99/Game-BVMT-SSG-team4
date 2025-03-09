@@ -1,3 +1,4 @@
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,10 +14,15 @@ public class ButtonGioiThieuThungRac : MonoBehaviour
     public Button bt_dongVoCo;
     public Button bt_dongTaiChe;
 
+    public GameObject panelIntroFirst;
+    public Button buttonConfirmIntroFirst;
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+            
     }
 
     // Update is called once per frame
@@ -47,6 +53,10 @@ public class ButtonGioiThieuThungRac : MonoBehaviour
         bt_dongTaiChe.onClick.AddListener(() =>
         {
             panelThungRacTaiChe.SetActive(false);
+        });
+        buttonConfirmIntroFirst.onClick.AddListener(() =>
+        {
+            panelIntroFirst.SetActive(false);
         });
     }
 }

@@ -13,17 +13,23 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
     public String tagThuRacSai2;
     public GameObject objectRac;
 
+    private float ToaDoX;
+    private float ToaDoY;
+
     private TinhDiemMiniGame1 point;
     private CountObject count;
 
-
+    private CreateNotifiMini1Map1 notification;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
 
     void Start()
     {
+        ToaDoX = transform.position.x;
+        ToaDoY = transform.position.y;
         mainCamera = Camera.main;
+        notification = FindAnyObjectByType<CreateNotifiMini1Map1>();
         point = FindAnyObjectByType<TinhDiemMiniGame1>();
         count = FindAnyObjectByType<CountObject>();
     }
@@ -58,16 +64,17 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
             Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
             if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
+                notification.ShowNotification("Chính xác<br>Bạn được +3 điểm");
                 objectRac.SetActive(false);
-                point.diem++;
+                point.diem+=3;
                 count.count++;
 
             }
-            else if(hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2)))    
+            else if(hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2)))
             {
-                objectRac.SetActive(false);
+                notification.ShowNotification("Không chính xác<br>Bạn bị -1 điểm");
+                objectRac.transform.position = new Vector2(ToaDoX, ToaDoY);
                 point.diem--;
-                count.count++;
             }
         }
         

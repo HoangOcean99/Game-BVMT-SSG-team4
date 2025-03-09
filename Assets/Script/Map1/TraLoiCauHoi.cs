@@ -13,10 +13,14 @@ public class TraLoiCauHoi : MonoBehaviour
 
     public GameObject panel_question;
     public GameObject panel_Congra;
+
+    public GameObject miniMap;
+
+    private CreateNotification hienThongBao;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        hienThongBao = FindAnyObjectByType<CreateNotification>();
     }
 
     // Update is called once per frame
@@ -24,6 +28,7 @@ public class TraLoiCauHoi : MonoBehaviour
     {
         buttonExit.onClick.AddListener(() =>
         {
+            miniMap.SetActive(true);
             mainQuestion.SetActive(false);
             foreach (GameObject obj in objectDisappear)
             {
@@ -38,15 +43,15 @@ public class TraLoiCauHoi : MonoBehaviour
         });
         buttonIncorrect1.onClick.AddListener(() =>
         {
-
+            hienThongBao.ShowNotification();
         });
         buttonIncorrect2.onClick.AddListener(() =>
         {
-
+            hienThongBao.ShowNotification();
         });
         buttonIncorrect3.onClick.AddListener(() =>
         {
-
+            hienThongBao.ShowNotification();
         });
     }
 }
