@@ -1,5 +1,7 @@
+using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -17,22 +19,58 @@ public class ClickButtonINtro : MonoBehaviour
     public GameObject panelMenuMain;
     public GameObject panelCachChoi;
     public GameObject panelSetting;
+
+    private InstanceVariables instanceVariableGeneral;
+    private ChangeOpacity opacity;
+    private CreateNotification notification;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        opacity = FindAnyObjectByType<ChangeOpacity>();
+        instanceVariableGeneral = FindAnyObjectByType<InstanceVariables>();
+        notification = FindAnyObjectByType<CreateNotification>();
+
         buttonCachChoi.onClick.AddListener(() =>{
             panelCachChoi.SetActive(true);
             panelMenuMain.SetActive(false);
+        });
+        buttonReturnSetting.onClick.AddListener(() => {
+            panelCachChoi.SetActive(false);
+            panelMenuMain.SetActive(true);
         });
         buttonThoat.onClick.AddListener(() =>
         {
             Application.Quit();
         });
-        buttonChoi.onClick.AddListener(() => { 
-            if(textName.text.Length > 0)
+        buttonChoi.onClick.AddListener(() => {
+            if (textName.text.Length > 0)
             {
+                instanceVariableGeneral.nameUser = textName.text;
                 SceneManager.LoadScene("ThiTranScene");
             }
+            else notification.ShowNotification();
+
+        });
+        buttonSetting.onClick.AddListener(() =>
+        {
+            if (panelSetting.active)
+            {
+                panelSetting.SetActive(false);
+            }
+            else
+            {
+                panelSetting.SetActive(true);
+            }
+        });
+        buttonBoy.onClick.AddListener(() =>
+        {
+            instanceVariableGeneral.OptionPlayer = true;
+            opacity.ActivateButton1();
+        });
+        buttonGirl.onClick.AddListener(() =>
+        {
+            instanceVariableGeneral.OptionPlayer = false;
+            opacity.ActivateButton2();
         });
 
     }
