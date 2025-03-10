@@ -18,13 +18,13 @@ public class ClickObject : MonoBehaviour
             buttonClick.interactable = false;
             circle.SetActive(true);
             tick.SetActive(true);
-            m_Instance.point++;
+            m_Instance.point+=2;
         });
     }
 
     // Update is called once per frame
     void Update()
     {
-        textPoint.text = m_Instance.point + "/8";
+        textPoint.text = m_Instance.point + "/16";
     }
 }
