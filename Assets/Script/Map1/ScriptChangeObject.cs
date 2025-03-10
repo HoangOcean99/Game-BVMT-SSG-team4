@@ -1,4 +1,7 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ScriptChangeObject : MonoBehaviour
 {
@@ -8,19 +11,24 @@ public class ScriptChangeObject : MonoBehaviour
     public GameObject[] objectRac2;
     public GameObject panelMiniGame2;
 
+
     private InstaceObjectMinigam1 miniGame1;
     private InstaceObjectMinigame2 miniGame2;
+    private InstanceVariables instanceGeneral;
+    private InstanceQuestionFinish questionFinish;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
         miniGame2 = FindAnyObjectByType<InstaceObjectMinigame2>();
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(miniGame1.change == 1)
+        if (miniGame1.change == 1)
         {
             foreach (var item in objectRac1)
             {
@@ -36,5 +44,7 @@ public class ScriptChangeObject : MonoBehaviour
             }
             panelMiniGame2.SetActive(false);
         }
+
+       
     }
 }

@@ -64,7 +64,7 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
             Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
             if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
-                notification.ShowNotification("Chính xác<br>Bạn được +3 điểm");
+                notification.ShowNotification("Chính xác<br>Bạn được +3 điểm", 2);
                 objectRac.SetActive(false);
                 point.diem+=3;
                 count.count++;
@@ -72,7 +72,7 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
             }
             else if(hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2)))
             {
-                notification.ShowNotification("Không chính xác<br>Bạn bị -1 điểm");
+                notification.ShowNotification("Không chính xác<br>Bạn bị -1 điểm", 1);
                 objectRac.transform.position = new Vector2(ToaDoX, ToaDoY);
                 point.diem--;
             }

@@ -4,7 +4,7 @@ using UnityEngine;
 public class CreateNotification : MonoBehaviour
 {
     public GameObject notificationPanel;
-    private float displayTime = 2f; // Thời gian hiển thị
+    private float displayTime = 20.7f; // Thời gian hiển thị
 
     public void ShowNotification()
     {

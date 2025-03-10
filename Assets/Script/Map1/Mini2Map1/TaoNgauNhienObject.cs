@@ -34,13 +34,17 @@ public class TaoNgauNhienObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (diemSoMinigame2.point == 10)
+        if (diemSoMinigame2.point == 20)
+        {
+            speedSpawn=2;
+        }
+        if (diemSoMinigame2.point == 32)
         {
             speedSpawn=3;
         }
-        if (diemSoMinigame2.point == 16)
+        if (diemSoMinigame2.point == 110)
         {
-            speedSpawn=4;
+            speedSpawn = 4;
         }
     }
 }

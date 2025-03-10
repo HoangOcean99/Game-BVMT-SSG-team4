@@ -16,35 +16,35 @@ public class DiChuyenObjectScipt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(diemSoMinigame2.point == 7)
+        if(diemSoMinigame2.point == 14)
         {
             speedNPC = 6f;
         }
-        if (diemSoMinigame2.point == 15)
+        if (diemSoMinigame2.point == 32)
         {
             speedNPC = 10f;
         }
-        if (diemSoMinigame2.point == 25)
+        if (diemSoMinigame2.point == 50)
         {
             speedNPC = 15f;
         }
-        if (diemSoMinigame2.point == 30)
+        if (diemSoMinigame2.point == 60)
         {
             speedNPC = 20f;
         }
-        if (diemSoMinigame2.point == 35)
+        if (diemSoMinigame2.point == 70)
         {
             speedNPC = 25f;
         }
-        if (diemSoMinigame2.point == 45)
+        if (diemSoMinigame2.point == 90)
         {
             speedNPC = 30f;
         }
-        if (diemSoMinigame2.point == 55)
+        if (diemSoMinigame2.point == 110)
         {
             speedNPC = 35f;
         }
-        if (diemSoMinigame2.point == 65)
+        if (diemSoMinigame2.point == 130)
         {
             speedNPC = 40f;
         }

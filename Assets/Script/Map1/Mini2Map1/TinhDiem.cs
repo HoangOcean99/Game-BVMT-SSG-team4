@@ -27,7 +27,7 @@ public class TinhDiem : MonoBehaviour
         Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
         if (hitCollider != null && hitCollider.CompareTag("TinhDiem"))
         {
-            diemSo.point += 1;
+            diemSo.point += 2;
             objectNpc.SetActive(false);
         }
         textDiemSo.text = diemSo.point + "";

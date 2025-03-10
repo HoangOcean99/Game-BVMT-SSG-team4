@@ -16,5 +16,11 @@ public class InstaceObjectMinigame2 : MonoBehaviour
         {
             Destroy(gameObject); // Xóa instance trùng lặp
         }
+        
+    }
+    public void DestroyInstance()
+    {
+        Destroy(gameObject);
+        Instance = null;
     }
 }

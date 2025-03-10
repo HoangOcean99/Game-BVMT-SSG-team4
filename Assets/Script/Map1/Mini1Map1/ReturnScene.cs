@@ -11,16 +11,22 @@ public class ReturnScene : MonoBehaviour
 
     public Button buttonTiep1;
     public GameObject panelChucMung;
+    public Button buttonTiepCon;
+    public GameObject panelThongDiep;
 
     public TextMeshProUGUI textThongBaoDiem;
 
     private TinhDiemMiniGame1 pointMiniGame1;
 
     private InstaceObjectMinigam1 miniGame1;
+    private InstanceVariables instanceGeneral;
+    private TinhDiemMiniGame1 tinhDiemMini1;
     // Start is called once before the first exe
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        tinhDiemMini1 = FindAnyObjectByType<TinhDiemMiniGame1>();  
+        
         miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
         buttonTiep1.onClick.AddListener(() =>
         {
@@ -30,6 +36,9 @@ public class ReturnScene : MonoBehaviour
         });
         button_returnScene.onClick.AddListener(() =>
         {
+            instanceGeneral = FindAnyObjectByType<InstanceVariables>();
+            instanceGeneral.point += tinhDiemMini1.diem;
+            tinhDiemMini1.DestroyInstance();
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
             LoadSceneManager.UnloadScene(sceneCurrent);
@@ -39,6 +48,11 @@ public class ReturnScene : MonoBehaviour
             LoadSceneManager.disableEventSystem();
             miniGame1.change = 1;
 
+        });
+        buttonTiepCon.onClick.AddListener(() =>
+        {
+            panelChucMung.SetActive(false);
+            panelThongDiep.SetActive(true);
         });
     }
 
