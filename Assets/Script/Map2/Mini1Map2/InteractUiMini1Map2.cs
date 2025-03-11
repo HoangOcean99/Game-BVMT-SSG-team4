@@ -15,10 +15,14 @@ public class InteractUiMini1Map2 : MonoBehaviour
     public Button buttonXacNhanThongDiep;
 
     private instancePointMini1map2 instanceMini1Map2;
+    private InstanceVariableMap2 instanceVariableMap2;
+    private InstanceVariables instanceGeneral;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Time.timeScale = 0;
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
+        instanceVariableMap2 = FindAnyObjectByType<InstanceVariableMap2>();
+        Time.timeScale = 0;    
         instanceMini1Map2 = FindAnyObjectByType<instancePointMini1map2>();
         buttonTiepIntroFirst.onClick.AddListener(() =>
         {
@@ -32,9 +36,10 @@ public class InteractUiMini1Map2 : MonoBehaviour
         });
         buttonXacNhanThongDiep.onClick.AddListener(() =>
         {
-            //instanceGeneral = FindAnyObjectByType<InstanceVariables>();
-            //instanceGeneral.point += tinhDiemMini1.diem;
-            //tinhDiemMini1.DestroyInstance();
+            instanceVariableMap2.objectMini1 = 1;
+            instanceGeneral = FindAnyObjectByType<InstanceVariables>();
+            instanceGeneral.point += instanceMini1Map2.point;
+            instanceMini1Map2.DestroyInstance();
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
             LoadSceneManager.UnloadScene(sceneCurrent);
@@ -42,7 +47,7 @@ public class InteractUiMini1Map2 : MonoBehaviour
             LoadSceneManager.ShowScene(sceneHome);
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
-            //miniGame1.change = 1;
+            
         });
     }
 

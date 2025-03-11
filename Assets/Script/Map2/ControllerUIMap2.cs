@@ -8,10 +8,12 @@ public class ControllerUIMap2 : MonoBehaviour
     public GameObject panelIntro1;
     public GameObject panelIntro2;
     public GameObject panelMain;
+
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         Time.timeScale = 0;
         buttonTiep.onClick.AddListener(() =>
         {

@@ -11,6 +11,7 @@ public class ScriptDoiMan : MonoBehaviour
 
     public GameObject panelNextMap;
     public Button buttonNextMap;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +20,7 @@ public class ScriptDoiMan : MonoBehaviour
         questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
         buttonNextMap.onClick.AddListener(() =>
         {
+            questionFinish.countFinish = 0;
             SceneManager.LoadScene("RungScene");
         });
     }

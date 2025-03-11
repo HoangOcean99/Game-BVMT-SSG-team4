@@ -10,10 +10,10 @@ public class CountDownTime : MonoBehaviour
     public GameObject panelchucMung;
     public TextMeshProUGUI textPoint;
 
-    //private instancePointMini1map2 instanceMini1Map2;
+    private InstancePointMini2Map2 instanceMini2Map2;
     void Start()
     {
-        //instanceMini1Map2 = FindAnyObjectByType<instancePointMini1map2>();
+        instanceMini2Map2 = FindAnyObjectByType<InstancePointMini2Map2>();
         StartCoroutine(Countdown());
     }
 
@@ -27,7 +27,7 @@ public class CountDownTime : MonoBehaviour
         }
         timerText.text = "Time's up!";
         Time.timeScale = 0;
-        //textPoint.text = "<b>Số điểm bạn nhận được là: " + instanceMini1Map2.point + " điểm<b> <sprite=2>";
+        textPoint.text = "<b>Số điểm bạn nhận được là: " + instanceMini2Map2.point + " điểm<b> <sprite=2>";
         panelchucMung.SetActive(true);
     }
 }

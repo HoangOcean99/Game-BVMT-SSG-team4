@@ -9,6 +9,7 @@ public class FindDifference : MonoBehaviour
     public GameObject circle1;
     public GameObject circle2;
     public TextMeshProUGUI textPoint;
+    public TextMeshProUGUI textChucMung;
 
     private InstancePointMini2Map2 instancePoint;
 
@@ -22,13 +23,13 @@ public class FindDifference : MonoBehaviour
             buttonClick.interactable = false;
             circle1.SetActive(true);
             circle2.SetActive(true);
-            instancePoint.point += 1;
+            instancePoint.point += 2;
         });
     }
 
     // Update is called once per frame
     void Update()
     {
-        textPoint.text = instancePoint.point + "/12";
+        textPoint.text = instancePoint.point + "/24";
     }
 }

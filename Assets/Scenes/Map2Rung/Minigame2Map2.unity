@@ -1194,6 +1194,7 @@ MonoBehaviour:
   circle1: {fileID: 1426550936}
   circle2: {fileID: 467254569}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &238656885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,6 +2104,7 @@ MonoBehaviour:
   circle1: {fileID: 719046803}
   circle2: {fileID: 673402207}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &382465256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,6 +2244,7 @@ MonoBehaviour:
   circle1: {fileID: 1461855898}
   circle2: {fileID: 254544733}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &385367599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &413557188
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2492,7 +2495,7 @@ RectTransform:
   - {fileID: 1724424003}
   - {fileID: 690921622}
   - {fileID: 61352186}
-  m_Father: {fileID: 1469356171}
+  m_Father: {fileID: 640777192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2812,6 +2815,7 @@ MonoBehaviour:
   circle1: {fileID: 493734623}
   circle2: {fileID: 1417833921}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &464979579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,6 +2955,7 @@ MonoBehaviour:
   circle1: {fileID: 1426550936}
   circle2: {fileID: 467254569}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &467254569
 GameObject:
   m_ObjectHideFlags: 0
@@ -3653,6 +3658,7 @@ MonoBehaviour:
   circle1: {fileID: 244723074}
   circle2: {fileID: 1221733680}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &564989894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3928,6 +3934,7 @@ MonoBehaviour:
   circle1: {fileID: 244723074}
   circle2: {fileID: 1221733680}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &577421865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,7 +3952,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &577421866
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4785,6 +4792,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1469356171}
+  - {fileID: 413557188}
+  - {fileID: 920324660}
+  - {fileID: 784628800}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5202,6 +5212,7 @@ MonoBehaviour:
   circle1: {fileID: 719046803}
   circle2: {fileID: 673402207}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &690921621
 GameObject:
   m_ObjectHideFlags: 0
@@ -5416,6 +5427,7 @@ MonoBehaviour:
   circle1: {fileID: 1781704027}
   circle2: {fileID: 1863666583}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &719046803
 GameObject:
   m_ObjectHideFlags: 0
@@ -5644,7 +5656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &784628800
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5659,7 +5671,7 @@ RectTransform:
   m_Children:
   - {fileID: 1236303163}
   - {fileID: 957311791}
-  m_Father: {fileID: 1469356171}
+  m_Father: {fileID: 640777192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5979,6 +5991,7 @@ MonoBehaviour:
   circle1: {fileID: 386127292}
   circle2: {fileID: 681729885}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &813456804
 GameObject:
   m_ObjectHideFlags: 0
@@ -6254,6 +6267,7 @@ MonoBehaviour:
   circle1: {fileID: 1616439229}
   circle2: {fileID: 1234306326}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &844421284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6742,6 +6756,7 @@ MonoBehaviour:
   circle1: {fileID: 1449196382}
   circle2: {fileID: 927387876}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &920324659
 GameObject:
   m_ObjectHideFlags: 0
@@ -6776,7 +6791,7 @@ RectTransform:
   - {fileID: 492049694}
   - {fileID: 284997306}
   - {fileID: 1525631348}
-  m_Father: {fileID: 1469356171}
+  m_Father: {fileID: 640777192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7035,6 +7050,7 @@ MonoBehaviour:
   circle1: {fileID: 995693083}
   circle2: {fileID: 238656885}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &957311790
 GameObject:
   m_ObjectHideFlags: 0
@@ -7156,6 +7172,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957311790}
   m_CullTransparentMesh: 1
+--- !u!1 &964991421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964991422}
+  - component: {fileID: 964991423}
+  m_Layer: 0
+  m_Name: InteractMini2map2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &964991422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964991421}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 934.3546, y: 518.32556, z: -7.090378}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964991423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964991421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5195c7121a3d7f46a587fe39b18a753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneHome: RungScene
+  sceneCurrent: Minigame2Map2
+  panelIntroFirst: {fileID: 413557187}
+  buttonTiepIntroFirst: {fileID: 672014711}
+  panelChucMung: {fileID: 920324659}
+  textdiem: {fileID: 284997307}
+  buttonTiepChucMung: {fileID: 1525631349}
+  panelThongDiep: {fileID: 784628799}
+  buttonXacNhanThongDiep: {fileID: 957311792}
+  panelMain: {fileID: 1469356170}
 --- !u!1 &974367418
 GameObject:
   m_ObjectHideFlags: 0
@@ -8113,6 +8183,7 @@ MonoBehaviour:
   circle1: {fileID: 1863666583}
   circle2: {fileID: 1781704027}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1143801939
 GameObject:
   m_ObjectHideFlags: 0
@@ -8252,6 +8323,7 @@ MonoBehaviour:
   circle1: {fileID: 386127292}
   circle2: {fileID: 681729885}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1221733680
 GameObject:
   m_ObjectHideFlags: 0
@@ -8541,6 +8613,7 @@ MonoBehaviour:
   circle1: {fileID: 2112686005}
   circle2: {fileID: 1491030962}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1236303162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8755,6 +8828,7 @@ MonoBehaviour:
   circle1: {fileID: 1036952895}
   circle2: {fileID: 1900103146}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1303172359
 GameObject:
   m_ObjectHideFlags: 0
@@ -9031,6 +9105,7 @@ MonoBehaviour:
   circle1: {fileID: 2112686005}
   circle2: {fileID: 1491030962}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1403603238
 GameObject:
   m_ObjectHideFlags: 0
@@ -9170,6 +9245,7 @@ MonoBehaviour:
   circle1: {fileID: 493734623}
   circle2: {fileID: 1417833921}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1411837266
 GameObject:
   m_ObjectHideFlags: 0
@@ -9618,12 +9694,12 @@ GameObject:
   - component: {fileID: 1469356173}
   - component: {fileID: 1469356172}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1469356171
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9637,9 +9713,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 577421866}
-  - {fileID: 413557188}
-  - {fileID: 920324660}
-  - {fileID: 784628800}
   m_Father: {fileID: 640777192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9731,6 +9804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 771836458}
   timeRemaining: 30
+  panelchucMung: {fileID: 920324659}
+  textPoint: {fileID: 284997307}
 --- !u!1 &1491030962
 GameObject:
   m_ObjectHideFlags: 0
@@ -10202,6 +10277,7 @@ MonoBehaviour:
   circle1: {fileID: 1461855898}
   circle2: {fileID: 254544733}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1541483763
 GameObject:
   m_ObjectHideFlags: 0
@@ -10839,6 +10915,7 @@ MonoBehaviour:
   circle1: {fileID: 1616439229}
   circle2: {fileID: 1234306326}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1636304564
 GameObject:
   m_ObjectHideFlags: 0
@@ -10978,6 +11055,7 @@ MonoBehaviour:
   circle1: {fileID: 995693083}
   circle2: {fileID: 238656885}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1657761927
 GameObject:
   m_ObjectHideFlags: 0
@@ -11736,6 +11814,7 @@ MonoBehaviour:
   circle1: {fileID: 1036952895}
   circle2: {fileID: 1900103146}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1781704027
 GameObject:
   m_ObjectHideFlags: 0
@@ -15405,6 +15484,7 @@ MonoBehaviour:
   circle1: {fileID: 1449196382}
   circle2: {fileID: 927387876}
   textPoint: {fileID: 1657761929}
+  textChucMung: {fileID: 0}
 --- !u!1 &1969013317
 GameObject:
   m_ObjectHideFlags: 0
@@ -15837,3 +15917,4 @@ SceneRoots:
   - {fileID: 974367420}
   - {fileID: 79620768}
   - {fileID: 1474243445}
+  - {fileID: 964991422}

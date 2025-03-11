@@ -23,12 +23,12 @@ public class TraLoiCauHoi : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
-        //instanceGeneral = FindAnyObjectByType<InstanceVariables>();
+        questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         hienThongBao = FindAnyObjectByType<CreateNotification>();
         buttonExit.onClick.AddListener(() =>
         {
-            //questionFinish.countFinish++;
+            questionFinish.countFinish++;
             miniMap.SetActive(true);
             mainQuestion.SetActive(false);
             foreach (GameObject obj in objectDisappear)
@@ -39,24 +39,24 @@ public class TraLoiCauHoi : MonoBehaviour
         });
         buttonCorrect.onClick.AddListener(() =>
         {
-            //instanceGeneral.point += 3;
+            instanceGeneral.point += 3;
             panel_question.SetActive(false);
             panel_Congra.SetActive(true);
 
         });
         buttonIncorrect1.onClick.AddListener(() =>
         {
-            //instanceGeneral.point--;
+            instanceGeneral.point--;
             hienThongBao.ShowNotification();
         });
         buttonIncorrect2.onClick.AddListener(() =>
         {
-            //instanceGeneral.point--;
+            instanceGeneral.point--;
             hienThongBao.ShowNotification();
         });
         buttonIncorrect3.onClick.AddListener(() =>
         {
-            //instanceGeneral.point--;
+            instanceGeneral.point--;
             hienThongBao.ShowNotification();
         });
     }
