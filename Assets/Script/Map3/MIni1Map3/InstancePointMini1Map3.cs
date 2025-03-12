@@ -1,0 +1,25 @@
+﻿using UnityEngine;
+
+public class InstancePointMini1Map3 : MonoBehaviour
+{
+    public static InstancePointMini1Map3 Instance { get; private set; }
+    public int point = 0;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject); // Xóa instance trùng lặp
+        }
+    }
+    public void DestroyInstance()
+    {
+        Destroy(gameObject);
+        Instance = null;
+    }
+}
