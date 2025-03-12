@@ -9,7 +9,8 @@ public class Move : MonoBehaviour
 
     public float leftorRight;
     public float upOrDown;
-    private float speedMove = 5f;
+    public float speedMove = 5f;
+    public float SpeedMove2 = 7f;
     private Animator ator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -72,7 +73,7 @@ public class Move : MonoBehaviour
                 //transform.localScale = new Vector2(-1, transform.localScale.y);
                 ator.SetInteger("Move", 2);
             }
-            rd2d.velocity = new Vector2(rd2d.velocity.x, 7f * upOrDown);
+            rd2d.velocity = new Vector2(rd2d.velocity.x, SpeedMove2 * upOrDown);
         }
     }
 }

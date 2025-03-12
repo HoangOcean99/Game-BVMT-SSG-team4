@@ -9,10 +9,12 @@ public class TaoNgauNhienObject : MonoBehaviour
     private int speedSpawn = 1;
     private DiemSoMinigame2 diemSoMinigame2;
     public static List<GameObject> instantiatedObjects = new List<GameObject>();
+    private Move player;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = GetComponent<Move>();
         InvokeRepeating("SpawmObject", 1f, spawmTime);
         diemSoMinigame2 = FindAnyObjectByType<DiemSoMinigame2>();
     }
@@ -38,7 +40,7 @@ public class TaoNgauNhienObject : MonoBehaviour
         {
             speedSpawn=2;
         }
-        if (diemSoMinigame2.point == 32)
+        if (diemSoMinigame2.point  == 32)
         {
             speedSpawn=3;
         }

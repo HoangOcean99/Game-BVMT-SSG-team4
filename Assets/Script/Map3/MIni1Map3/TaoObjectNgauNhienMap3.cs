@@ -1,17 +1,18 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class TaoObjectNgauNhien : MonoBehaviour
+public class TaoObjectNgauNhienMap3 : MonoBehaviour
 {
     public GameObject[] objectsToSpawm;
     public float spawmTime = 5f;
 
     private int speedSpawn = 2;
     public static List<GameObject> instantiatedObjects = new List<GameObject>();
-
+    private InstancePointMini1Map3 instancePointMap3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instancePointMap3 = FindAnyObjectByType<InstancePointMini1Map3>();
         InvokeRepeating("SpawmObject", 1f, spawmTime);
     }
 
@@ -34,11 +35,23 @@ public class TaoObjectNgauNhien : MonoBehaviour
 
             Vector2 positionRandom = new Vector2(17.72f, posY);
             GameObject newObj = Instantiate(randomObject, positionRandom, Quaternion.identity);
+            instantiatedObjects.Add(newObj);
         }
     }
     // Update is called once per frame
     void Update()
     {
-
+        if (instancePointMap3.point == 30)
+        {
+            speedSpawn = 2;
+        }
+        if (instancePointMap3.point == 50)
+        {
+            speedSpawn = 3;
+        }
+        if (instancePointMap3.point == 65)
+        {
+            speedSpawn = 4;
+        }
     }
 }

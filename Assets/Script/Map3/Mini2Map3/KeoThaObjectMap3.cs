@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class KeoThaObjectMap3 : MonoBehaviour
@@ -11,26 +12,28 @@ public class KeoThaObjectMap3 : MonoBehaviour
     public String tagThuRacSai2;
     public String tagThuRacSai3;
     public GameObject objectVatPham;
-    public float toaDoX;
-    public float toaDoY;
+
     public GameObject currentSituation;
     public GameObject newSituation;
     public GameObject currentText;
     public GameObject newText;
+    public GameObject objectTitle;
 
-    //private TinhDiemMiniGame1 point;
-    //private CountObject count;
-
-
+    private InstancePointMini2Map3 pointMini2Map3;
+    private CreateNotifiMini1Map1 createNotification;
+    private float toaDoX;
+    private float toaDoY;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
 
     void Start()
     {
+        toaDoX = transform.position.x;
+        toaDoY = transform.position.y;
         mainCamera = Camera.main;
-        //point = FindAnyObjectByType<TinhDiemMiniGame1>();
-        //count = FindAnyObjectByType<CountObject>();
+        pointMini2Map3 = FindAnyObjectByType<InstancePointMini2Map3>();
+        createNotification = FindAnyObjectByType<CreateNotifiMini1Map1>();
     }
 
 
@@ -62,21 +65,22 @@ public class KeoThaObjectMap3 : MonoBehaviour
             Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
             if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
+                createNotification.ShowNotification("Chính xác<br>Bạn được +3 điểm", 2);
                 objectVatPham.SetActive(false);
                 currentSituation.SetActive(false);
                 newSituation.SetActive(true);
                 currentText.SetActive(false);
                 newText.SetActive(true);
-                //point.diem++;
-                //count.count++;
+                objectTitle.SetActive(false);
+                pointMini2Map3.point += 3;
+                pointMini2Map3.count++;
 
             }
             else if (hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2) || hitCollider.CompareTag(tagThuRacSai3)))
             {
+                createNotification.ShowNotification("Không chính xác<br>Bạn bị -1 điểm", 1);
                 objectVatPham.transform.position = new Vector2(toaDoX, toaDoY);
-                //objectRac.SetActive(false);
-                //point.diem--;
-                //count.count++;
+                pointMini2Map3.point--;
             }
         }
 

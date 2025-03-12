@@ -13,17 +13,17 @@ public class ScriptInteractUIMini1Map3 : MonoBehaviour
     public GameObject panelThongDiep;
     public Button buttonXacNhanThongDiep;
 
-    //private InstancePointMini2Map2 instanceMini2Map2;
-    //private InstanceVariableMap2 instanceVariableMap2;
-    //private InstanceVariables instanceGeneral;
+    private InstancePointMini1Map3 instanceMini1Map3;
+    private InstanceChangeMap3 instanceChangeMap3;
+    private InstanceVariables instanceGeneral;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //instanceGeneral = FindAnyObjectByType<InstanceVariables>();
-        //instanceVariableMap2 = FindAnyObjectByType<InstanceVariableMap2>();
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
+        instanceChangeMap3 = FindAnyObjectByType<InstanceChangeMap3>();
         Time.timeScale = 0;
-        //instanceMini2Map2 = FindAnyObjectByType<InstancePointMini2Map2>();
+        instanceMini1Map3 = FindAnyObjectByType<InstancePointMini1Map3>();
         buttonTiepIntroFirst.onClick.AddListener(() =>
         {
             Time.timeScale = 1;
@@ -36,10 +36,10 @@ public class ScriptInteractUIMini1Map3 : MonoBehaviour
         });
         buttonXacNhanThongDiep.onClick.AddListener(() =>
         {
-            //instanceVariableMap2.objectMini2 = 1;
-            //instanceGeneral = FindAnyObjectByType<InstanceVariables>();
-            //instanceGeneral.point += instanceMini2Map2.point;
-            //instanceMini2Map2.DestroyInstance();
+            instanceChangeMap3.mini1 = 1;
+            Time.timeScale = 1;
+            instanceGeneral.point += instanceMini1Map3.point;
+            instanceMini1Map3.DestroyInstance();
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
             LoadSceneManager.UnloadScene(sceneCurrent);
