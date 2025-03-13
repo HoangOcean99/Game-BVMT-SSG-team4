@@ -12,13 +12,12 @@ public class ClickButtonINtro : MonoBehaviour
     public Button buttonThoat;
     public Button buttonBoy; 
     public Button buttonGirl;
-    public Button buttonSetting;
     public Button buttonReturnSetting;
 
     public TMP_InputField textName;
     public GameObject panelMenuMain;
     public GameObject panelCachChoi;
-    public GameObject panelSetting;
+    
 
     private InstanceVariables instanceVariableGeneral;
     private ChangeOpacity opacity;
@@ -51,17 +50,7 @@ public class ClickButtonINtro : MonoBehaviour
             else notification.ShowNotification();
 
         });
-        buttonSetting.onClick.AddListener(() =>
-        {
-            if (panelSetting.active)
-            {
-                panelSetting.SetActive(false);
-            }
-            else
-            {
-                panelSetting.SetActive(true);
-            }
-        });
+       
         buttonBoy.onClick.AddListener(() =>
         {
             instanceVariableGeneral.OptionPlayer = true;

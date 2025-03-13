@@ -6505,6 +6505,8 @@ MonoBehaviour:
   point: 0
   nameUser: 
   OptionPlayer: 1
+  music: 0
+  sound: 0
 --- !u!1 &634243517
 GameObject:
   m_ObjectHideFlags: 0
@@ -13678,6 +13680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126568910}
   - component: {fileID: 2126568911}
+  - component: {fileID: 2126568912}
   m_Layer: 0
   m_Name: ClickButtonIngtro
   m_TagString: Untagged
@@ -13717,12 +13720,28 @@ MonoBehaviour:
   buttonThoat: {fileID: 2001281363}
   buttonBoy: {fileID: 32335821}
   buttonGirl: {fileID: 712631121}
-  buttonSetting: {fileID: 652569585}
   buttonReturnSetting: {fileID: 1706743754}
   textName: {fileID: 810649600}
   panelMenuMain: {fileID: 1926838623}
   panelCachChoi: {fileID: 1664617050}
+--- !u!114 &2126568912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126568909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35291e98a44b5924e885c2faefa1db82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSetting: {fileID: 652569585}
   panelSetting: {fileID: 1468557427}
+  turnOffMusic: {fileID: 821034352}
+  turnOnMusic: {fileID: 1933803995}
+  turnOffSound: {fileID: 1034432616}
+  turnOnSound: {fileID: 1965382982}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -19,7 +19,6 @@ public class ControllerUI : MonoBehaviour
             LoadSceneManager.HideScene(currentScene);
             LoadSceneManager.LoadNewScene(NameMini1);
             LoadSceneManager.DisableExtraAudioListeners();
-            LoadSceneManager.disableEventSystem();
         });
         button_panelMini2.onClick.AddListener(() =>
         {

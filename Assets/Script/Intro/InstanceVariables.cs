@@ -7,6 +7,8 @@ public class InstanceVariables : MonoBehaviour
     public int point = 0;
     public string nameUser = "";
     public Boolean OptionPlayer = true;
+    public Boolean music = true;
+    public Boolean sound = true;
 
     private void Awake()
     {
