@@ -16,6 +16,9 @@ public class TraLoiCauHoi : MonoBehaviour
     public GameObject panel_Congra;
 
     public GameObject miniMap;
+    public AudioSource audioCorrectAnswer;
+    public AudioSource audioClickButton;
+    public AudioSource audioIncorrectAnswer;
 
     private InstanceQuestionFinish questionFinish;
     private CreateNotification hienThongBao;
@@ -23,11 +26,18 @@ public class TraLoiCauHoi : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        audioClickButton.time = 0f;
+        audioClickButton.pitch = 1.2f;
+        audioCorrectAnswer.time = 0f;
+        audioCorrectAnswer.pitch = 1.2f;
+        audioIncorrectAnswer.time = 0f;
+        audioIncorrectAnswer.pitch = 1.2f;
         questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
         instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         hienThongBao = FindAnyObjectByType<CreateNotification>();
         buttonExit.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             questionFinish.countFinish++;
             miniMap.SetActive(true);
             mainQuestion.SetActive(false);
@@ -39,6 +49,7 @@ public class TraLoiCauHoi : MonoBehaviour
         });
         buttonCorrect.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioCorrectAnswer.PlayOneShot(audioCorrectAnswer.clip);
             instanceGeneral.point += 3;
             panel_question.SetActive(false);
             panel_Congra.SetActive(true);
@@ -46,16 +57,19 @@ public class TraLoiCauHoi : MonoBehaviour
         });
         buttonIncorrect1.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioIncorrectAnswer.PlayOneShot(audioIncorrectAnswer.clip);
             instanceGeneral.point--;
             hienThongBao.ShowNotification();
         });
         buttonIncorrect2.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioIncorrectAnswer.PlayOneShot(audioIncorrectAnswer.clip);
             instanceGeneral.point--;
             hienThongBao.ShowNotification();
         });
         buttonIncorrect3.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioIncorrectAnswer.PlayOneShot(audioIncorrectAnswer.clip);
             instanceGeneral.point--;
             hienThongBao.ShowNotification();
         });

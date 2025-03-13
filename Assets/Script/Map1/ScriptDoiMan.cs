@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,17 +10,22 @@ public class ScriptDoiMan : MonoBehaviour
     private InstanceVariables instanceGeneral;
     private InstanceQuestionFinish questionFinish;
 
+    public AudioSource audioClickButton;
     public GameObject panelNextMap;
     public Button buttonNextMap;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        audioClickButton.time = 0f;
+        audioClickButton.pitch = 1.2f;
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
         miniGame2 = FindAnyObjectByType<InstaceObjectMinigame2>();
         questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
         buttonNextMap.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             questionFinish.countFinish = 0;
             SceneManager.LoadScene("RungScene");
         });

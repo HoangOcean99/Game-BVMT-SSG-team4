@@ -11,11 +11,15 @@ public class IntroFirstMap1 : MonoBehaviour
     public GameObject panelIntro1;
     public GameObject panelIntro2;
     public GameObject panelMain;
+    public AudioSource audioClickButton;
+
 
     private InstanceVariables instanceVariable;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        audioClickButton.time = 0f;
+        audioClickButton.pitch = 1.2f;
         Time.timeScale = 0;
         instanceVariable = FindAnyObjectByType<InstanceVariables>();
         textIntro1.text = "Xin chào kĩ sư môi trường " + instanceVariable.nameUser + ", thành phố của bạn đang bị ô nhiễm rất trầm trọng, người dân đã di tản. <sprite=2>";
@@ -23,11 +27,13 @@ public class IntroFirstMap1 : MonoBehaviour
 
         buttonTiep.onClick.AddListener(() =>
         {
+            if (instanceVariable.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             panelIntro1.SetActive(false);
             panelIntro2.SetActive(true);
         });
         buttonXacNhan.onClick.AddListener(() =>
         {
+            if (instanceVariable.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             panelMain.SetActive(false);
             panelIntro2.SetActive(false);
             Time.timeScale = 1;
