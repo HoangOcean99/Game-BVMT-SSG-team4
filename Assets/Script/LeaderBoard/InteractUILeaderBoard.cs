@@ -10,6 +10,8 @@ public class InteractUILeaderBoard : MonoBehaviour
     public GameObject panelLeaderBoard;
     public GameObject panelEndGame;
 
+    private InstanceVariables instanceGeneral;
+    public AudioSource audioClickButton;
     private float time = 5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +19,7 @@ public class InteractUILeaderBoard : MonoBehaviour
         StartCoroutine(HienButton());
         buttonTiep.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             panelLeaderBoard.SetActive(false);
             panelEndGame.SetActive(true);
         });

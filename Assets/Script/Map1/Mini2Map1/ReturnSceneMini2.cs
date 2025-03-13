@@ -14,6 +14,7 @@ public class ReturnSceneMini2 : MonoBehaviour
     public TextMeshProUGUI textPoint;
     public Button buttonTiepTuc2;
     public GameObject panel_thongDiep;
+    public AudioSource audioClickButton;
 
     private DiemSoMinigame2 diemMini2Map1;
     private InstaceObjectMinigame2 miniGame2;
@@ -26,23 +27,27 @@ public class ReturnSceneMini2 : MonoBehaviour
         miniGame2 = FindAnyObjectByType<InstaceObjectMinigame2>();
         buttonXacNhan.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             Time.timeScale = 1;
             panelIntroFirst.SetActive(false);   
         });
         buttonTiepTuc1.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             buttonTiepTuc1.enabled = false;
             textPoint.text = "<b>Số điểm bạn nhận được là: " + diemMini2Map1.point + " điểm<b> <sprite=2>";
             panelChucMung.SetActive(true);
         });
         buttonTiepTuc2.onClick.AddListener(() =>
-        {   
+        {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             instanceGeneral.point += diemMini2Map1.point;
             panelChucMung.SetActive(false);
             panel_thongDiep.SetActive(true);
         });
         button_returnScene.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
             LoadSceneManager.UnloadScene(sceneCurrent);

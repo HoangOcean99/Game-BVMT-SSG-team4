@@ -36,6 +36,7 @@ public class ClickSettingButton : MonoBehaviour
         {
             if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             turnOnMusic.gameObject.SetActive(false);
+            turnOffMusic.gameObject.SetActive(true);
             instanceGeneral.music = false;
         });
         turnOffMusic.onClick.AddListener(() =>

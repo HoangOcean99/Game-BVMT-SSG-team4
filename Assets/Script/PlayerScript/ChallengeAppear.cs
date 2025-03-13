@@ -16,20 +16,25 @@ public class ChallengeAppear : MonoBehaviour
     public GameObject panel_question8;
 
     public GameObject miniMap;
+
+    public HieuUngCanvas hieuUng;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Minigame1")
         {
+            Time.timeScale = 0;
             panel_miniGame1.SetActive(true);
         }
         if (collision.gameObject.tag == "Minigame2")
         {
+            Time.timeScale = 0;
             panel_miniGame2.SetActive(true);
         }
         if (collision.gameObject.tag == "Question1")
         {
             miniMap.SetActive(false);
-            panel_question1.SetActive(true);
+            //panel_question1.SetActive(true);
+            hieuUng.FadeIn();
         }
         if (collision.gameObject.tag == "Question2")
         {

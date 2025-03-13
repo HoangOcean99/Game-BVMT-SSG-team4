@@ -20,12 +20,17 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
     private CountObject count;
 
     private CreateNotifiMini1Map1 notification;
+    public AudioSource audioClickButton;
+    public AudioSource audioCorrectButton;
+    public AudioSource audioIncorrectButton;
+    private InstanceVariables instanceGeneral;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
 
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         ToaDoX = transform.position.x;
         ToaDoY = transform.position.y;
         mainCamera = Camera.main;
@@ -64,6 +69,7 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
             Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
             if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
+                if (instanceGeneral.sound) audioCorrectButton.PlayOneShot(audioCorrectButton.clip);
                 notification.ShowNotification("Chính xác<br>Bạn được +3 điểm", 2);
                 objectRac.SetActive(false);
                 point.diem+=3;
@@ -72,6 +78,7 @@ public class DiChuyenObjectbangChuot : MonoBehaviour
             }
             else if(hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2)))
             {
+                if (instanceGeneral.sound) audioIncorrectButton.PlayOneShot(audioIncorrectButton.clip);
                 notification.ShowNotification("Không chính xác<br>Bạn bị -1 điểm", 1);
                 objectRac.transform.position = new Vector2(ToaDoX, ToaDoY);
                 point.diem--;

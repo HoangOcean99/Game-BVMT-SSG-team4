@@ -9,6 +9,7 @@ public class InstanceVariables : MonoBehaviour
     public Boolean OptionPlayer = true;
     public Boolean music = true;
     public Boolean sound = true;
+    public Boolean move = true;
 
     public AudioSource audioClickButton;
     private void Awake()

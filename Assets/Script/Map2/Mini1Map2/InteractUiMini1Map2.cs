@@ -17,6 +17,7 @@ public class InteractUiMini1Map2 : MonoBehaviour
     private instancePointMini1map2 instanceMini1Map2;
     private InstanceVariableMap2 instanceVariableMap2;
     private InstanceVariables instanceGeneral;
+    public AudioSource audioClickButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,16 +27,19 @@ public class InteractUiMini1Map2 : MonoBehaviour
         instanceMini1Map2 = FindAnyObjectByType<instancePointMini1map2>();
         buttonTiepIntroFirst.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             Time.timeScale = 1;
             panelIntroFirst.SetActive(false);
         });
         buttonTiepChucMung.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             panelChucMung.SetActive(false);
             panelThongDiep.SetActive(true);
         });
         buttonXacNhanThongDiep.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             instanceVariableMap2.objectMini1 = 1;
             instanceGeneral = FindAnyObjectByType<InstanceVariables>();
             instanceGeneral.point += instanceMini1Map2.point;

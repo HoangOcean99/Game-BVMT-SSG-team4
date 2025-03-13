@@ -10,13 +10,18 @@ public class ScriptDoiManmap3 : MonoBehaviour
     public GameObject panelNextMap;
     public Button buttonNextMap;
 
+    private InstanceVariables instanceGeneral;
+    public AudioSource audioClickButton;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         instancemap3 = FindAnyObjectByType<InstanceChangeMap3>();
         questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
         buttonNextMap.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             questionFinish.countFinish = 0;
             SceneManager.LoadScene("SceneLeaderaBoard");
         });

@@ -15,6 +15,7 @@ public class ReturnScene : MonoBehaviour
     public GameObject panelThongDiep;
 
     public TextMeshProUGUI textThongBaoDiem;
+    public AudioSource audioClickButton;
 
     private TinhDiemMiniGame1 pointMiniGame1;
 
@@ -25,18 +26,20 @@ public class ReturnScene : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         tinhDiemMini1 = FindAnyObjectByType<TinhDiemMiniGame1>();  
         
         miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
         buttonTiep1.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             pointMiniGame1 = FindAnyObjectByType<TinhDiemMiniGame1>();
             textThongBaoDiem.text = "<b>Số điểm bạn nhận được là: " + pointMiniGame1.diem + " điểm<b> <sprite=2>";
             panelChucMung.SetActive(true);
         });
         button_returnScene.onClick.AddListener(() =>
         {
-            instanceGeneral = FindAnyObjectByType<InstanceVariables>();
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             instanceGeneral.point += tinhDiemMini1.diem;
             tinhDiemMini1.DestroyInstance();
             LoadSceneManager.DisableExtraAudioListeners();
@@ -51,6 +54,7 @@ public class ReturnScene : MonoBehaviour
         });
         buttonTiepCon.onClick.AddListener(() =>
         {
+            if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             panelChucMung.SetActive(false);
             panelThongDiep.SetActive(true);
         });

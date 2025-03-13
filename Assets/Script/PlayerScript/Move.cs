@@ -30,6 +30,7 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!instanceGeneral.move) return;
         if (controller == 1)
         {
             ator.SetInteger("Move", 0);

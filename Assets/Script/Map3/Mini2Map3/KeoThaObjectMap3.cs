@@ -24,11 +24,16 @@ public class KeoThaObjectMap3 : MonoBehaviour
     private float toaDoX;
     private float toaDoY;
 
+    private InstanceVariables instanceGeneral;
+    public AudioSource audioClickButton;
+    public AudioSource audioCorrectButton;
+    public AudioSource audioIncorrectButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
 
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         toaDoX = transform.position.x;
         toaDoY = transform.position.y;
         mainCamera = Camera.main;
@@ -65,6 +70,7 @@ public class KeoThaObjectMap3 : MonoBehaviour
             Collider2D hitCollider = Physics2D.OverlapCircle(transform.position, 0.1f, LayerMask.GetMask("Default")); // Thay đổi kích thước và layer nếu cần
             if (hitCollider != null && hitCollider.CompareTag(tagThuRacDung))
             {
+                if (instanceGeneral.sound) audioCorrectButton.PlayOneShot(audioCorrectButton.clip);
                 createNotification.ShowNotification("Chính xác<br>Bạn được +3 điểm", 2);
                 objectVatPham.SetActive(false);
                 currentSituation.SetActive(false);
@@ -78,6 +84,7 @@ public class KeoThaObjectMap3 : MonoBehaviour
             }
             else if (hitCollider != null && (hitCollider.CompareTag(tagThuRacSai1) || hitCollider.CompareTag(tagThuRacSai2) || hitCollider.CompareTag(tagThuRacSai3)))
             {
+                if (instanceGeneral.sound) audioIncorrectButton.PlayOneShot(audioIncorrectButton.clip);
                 createNotification.ShowNotification("Không chính xác<br>Bạn bị -1 điểm", 1);
                 objectVatPham.transform.position = new Vector2(toaDoX, toaDoY);
                 pointMini2Map3.point--;

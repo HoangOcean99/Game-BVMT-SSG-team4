@@ -14,6 +14,10 @@ public class ObjectMove : MonoBehaviour
     public TextMeshProUGUI textThongDiep2;
 
     private InstancePointMini1Map3 instancePoint;
+    private InstanceVariables instanceGeneral;
+    public AudioSource audioClickButton;
+    public AudioSource audioCorrectButton;
+    public AudioSource audioIncorrectButton;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,12 +29,14 @@ public class ObjectMove : MonoBehaviour
     {
         if (option == 1)
         {
+            if (instanceGeneral.sound) audioCorrectButton.PlayOneShot(audioCorrectButton.clip);
             instancePoint.point += 2;
             objectVatThe.SetActive(false);
             Destroy(objectVatThe);
         }
         else
         {
+            if (instanceGeneral.sound) audioIncorrectButton.PlayOneShot(audioIncorrectButton.clip);
             List<GameObject> newList = TaoObjectNgauNhienMap3.instantiatedObjects;
             Time.timeScale = 0;
             //object_panelThongDiepMini2.SetActive(true);
@@ -89,6 +95,7 @@ public class ObjectMove : MonoBehaviour
         {
             if (option == 1)
             {
+                if (instanceGeneral.sound) audioIncorrectButton.PlayOneShot(audioIncorrectButton.clip);
                 List<GameObject> newList = TaoObjectNgauNhienMap3.instantiatedObjects;
                 //object_panelThongDiepMini2.SetActive(true);
                 foreach (var obj in newList)
