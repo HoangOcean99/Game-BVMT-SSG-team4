@@ -23,6 +23,10 @@ TagManager:
   - Question7
   - Question8
   - Opposite
+  - TrangThai1
+  - TrangThai2
+  - TrangThai3
+  - TrangThai4
   layers:
   - Default
   - TransparentFX
@@ -63,14 +67,14 @@ TagManager:
   - name: background
     uniqueID: 1195541831
     locked: 0
+  - name: Player
+    uniqueID: 1854441027
+    locked: 0
   - name: item
     uniqueID: 3632351069
     locked: 0
   - name: Arrow
     uniqueID: 3840350549
-    locked: 0
-  - name: Player
-    uniqueID: 1854441027
     locked: 0
   m_RenderingLayers:
   - Default
