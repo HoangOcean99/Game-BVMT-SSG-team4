@@ -39,6 +39,7 @@ public class InteractUiMini1Map2 : MonoBehaviour
         });
         buttonXacNhanThongDiep.onClick.AddListener(() =>
         {
+            Time.timeScale = 1;
             if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             instanceVariableMap2.objectMini1 = 1;
             instanceGeneral = FindAnyObjectByType<InstanceVariables>();
@@ -53,12 +54,13 @@ public class InteractUiMini1Map2 : MonoBehaviour
             LoadSceneManager.disableEventSystem();
             
         });
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(instanceMini1Map2.point == 16)
+        if (instanceMini1Map2.point == 16)
         {
             Time.timeScale = 0;
             textdiem.text = "<b>Số điểm bạn nhận được là: " + instanceMini1Map2.point + " điểm<b> <sprite=2>";

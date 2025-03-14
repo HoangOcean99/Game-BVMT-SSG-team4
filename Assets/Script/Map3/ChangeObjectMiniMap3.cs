@@ -20,6 +20,7 @@ public class ChangeObjectMiniMap3 : MonoBehaviour
     {
         if(instanceChange.mini1 == 1)
         {
+            Time.timeScale = 1;
             instanceGeneral.move = true;
             foreach (var item in objectMini1)
             {
@@ -29,6 +30,7 @@ public class ChangeObjectMiniMap3 : MonoBehaviour
         }
         if (instanceChange.mini2 == 1)
         {
+            Time.timeScale = 1;
             instanceGeneral.move = true;
             foreach (var item in objectMini2)
             {

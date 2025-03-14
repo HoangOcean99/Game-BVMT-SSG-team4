@@ -15,6 +15,7 @@ public class ChangeObjectMiniMap2 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         instanceVariableMap2 = FindAnyObjectByType<InstanceVariableMap2>();
     }
 
@@ -23,6 +24,7 @@ public class ChangeObjectMiniMap2 : MonoBehaviour
     {
         if (instanceVariableMap2.objectMini1 == 1)
         {
+            Time.timeScale = 1;
             instanceGeneral.move = true;
             foreach (var item in listObjectMini1)
             {
@@ -32,6 +34,7 @@ public class ChangeObjectMiniMap2 : MonoBehaviour
         }
         if (instanceVariableMap2.objectMini2 == 1)
         {
+            Time.timeScale = 1;
             instanceGeneral.move = true;
             foreach (var item in listObjectMini2)
             {

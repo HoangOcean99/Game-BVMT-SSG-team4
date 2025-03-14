@@ -42,6 +42,7 @@ public class interactiMini2Map2 : MonoBehaviour
         });
         buttonXacNhanThongDiep.onClick.AddListener(() =>
         {
+            Time.timeScale = 1;
             if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             instanceVariableMap2.objectMini2 = 1;
             instanceGeneral = FindAnyObjectByType<InstanceVariables>();
@@ -56,6 +57,7 @@ public class interactiMini2Map2 : MonoBehaviour
             LoadSceneManager.disableEventSystem();
 
         });
+        
     }
 
     // Update is called once per frame

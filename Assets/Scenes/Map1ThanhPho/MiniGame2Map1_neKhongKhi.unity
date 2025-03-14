@@ -5291,6 +5291,10 @@ PrefabInstance:
       value: 0.75763893
       objectReference: {fileID: 0}
     - target: {fileID: 6029302214263076465, guid: 4dc3b3ceeb5ce174a97c4789f5be8755, type: 3}
+      propertyPath: audioMove
+      value: 
+      objectReference: {fileID: 538323646}
+    - target: {fileID: 6029302214263076465, guid: 4dc3b3ceeb5ce174a97c4789f5be8755, type: 3}
       propertyPath: controller
       value: 2
       objectReference: {fileID: 0}
@@ -5322,7 +5326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button_tiep: {fileID: 1986562437}
-  audioIncorrect: {fileID: 0}
+  audioIncorrect: {fileID: 1757919408}
 --- !u!1 &1338597624
 GameObject:
   m_ObjectHideFlags: 0
