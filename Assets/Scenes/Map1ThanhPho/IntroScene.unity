@@ -6268,8 +6268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 196.44006, y: 246.99998}
-  m_SizeDelta: {x: 1002.5298, y: 171.06}
+  m_AnchoredPosition: {x: 196.44, y: 239.89}
+  m_SizeDelta: {x: 1002.5298, y: 245.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526096074
 MonoBehaviour:
@@ -6292,7 +6292,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "S\u1EED d\u1EE5ng c\xE1c ph\xEDm A, S, D, W ho\u1EB7c c\xE1c ph\xEDm \u0111i\u1EC1u
-    h\u01B0\u1EDBng \u0111\u1EC3 di chuy\u1EC3n nh\xE2n v\u1EADt. <sprite=3>"
+    h\u01B0\u1EDBng \u0111\u1EC3 di chuy\u1EC3n nh\xE2n v\u1EADt.  Nh\u1EA5n P \u0111\u1EC3
+    t\u1EA1m r\u1EEBng <sprite=3>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35ae76ff402743b4082ec20b9f72f215, type: 2}
   m_sharedMaterial: {fileID: -7723797732544320188, guid: 35ae76ff402743b4082ec20b9f72f215, type: 2}
@@ -11531,8 +11532,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.834732, y: -3}
-  m_SizeDelta: {x: 1061.4006, y: 240.4994}
+  m_AnchoredPosition: {x: -49.834732, y: 19.884}
+  m_SizeDelta: {x: 1061.4006, y: 194.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895647396
 MonoBehaviour:

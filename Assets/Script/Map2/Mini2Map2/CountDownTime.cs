@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using TMPro;
 using UnityEngine;
-using static UnityEditor.MaterialProperty;
+
 
 public class CountDownTime : MonoBehaviour
 {
