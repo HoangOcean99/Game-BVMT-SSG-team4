@@ -13,6 +13,7 @@ public class IntroFirstMap1 : MonoBehaviour
     public GameObject panelIntro2;
     public GameObject panelMain;
     public AudioSource audioClickButton;
+    public AudioSource audioTypeWritting;
 
     public float typingSpeed = 0.05f;
 
@@ -38,6 +39,7 @@ public class IntroFirstMap1 : MonoBehaviour
         buttonTiep.onClick.AddListener(() =>
         {
             if (instanceVariable.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
+            audioTypeWritting.Pause();
             panelIntro1.SetActive(false);
             panelIntro2.SetActive(true);
             fullText = textIntro2.text;
@@ -47,6 +49,7 @@ public class IntroFirstMap1 : MonoBehaviour
         buttonXacNhan.onClick.AddListener(() =>
         {
             if (instanceVariable.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
+            audioTypeWritting.Pause();
             panelMain.SetActive(false);
             panelIntro2.SetActive(false);
             //Time.timeScale = 1;
@@ -55,11 +58,13 @@ public class IntroFirstMap1 : MonoBehaviour
     }
     IEnumerator ShowText(TextMeshProUGUI text)
     {
+        if (instanceVariable.sound) audioTypeWritting.Play();
         for (int i = 0; i < fullText.Length; i++)
         {
             text.text += fullText[i];
             yield return new WaitForSeconds(typingSpeed);
         }
+        audioTypeWritting.Pause();
     }
     // Update is called once per frame
     void Update()

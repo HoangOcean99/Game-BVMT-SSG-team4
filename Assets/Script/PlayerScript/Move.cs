@@ -30,7 +30,14 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!instanceGeneral.move) return;
+        if (!instanceGeneral.move)
+        {
+            leftorRight = 0;
+            upOrDown = 0;
+            rd2d.velocity = Vector2.zero; // Đặt vận tốc về 0 để dừng nhân vật
+            ator.SetInteger("Move", 0); // Đảm bảo animation về trạng thái đứng yên
+            return;
+        }
         if (controller == 1)
         {
             ator.SetInteger("Move", 0);

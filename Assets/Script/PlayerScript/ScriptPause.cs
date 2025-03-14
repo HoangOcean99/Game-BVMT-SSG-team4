@@ -19,6 +19,7 @@ public class ScriptPause : MonoBehaviour
         buttonThoat.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("IntroScene");
+            Time.timeScale = 1;
         });
     }
 

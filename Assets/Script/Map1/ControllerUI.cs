@@ -20,7 +20,7 @@ public class ControllerUI : MonoBehaviour
         instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         button_panelMini1.onClick.AddListener(() =>
         {
-            Time.timeScale = 1;
+            instanceGeneral.move = true;
             if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();
@@ -30,7 +30,7 @@ public class ControllerUI : MonoBehaviour
         });
         button_panelMini2.onClick.AddListener(() =>
         {
-            Time.timeScale = 1;
+            instanceGeneral.move = true;
             if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);
             LoadSceneManager.DisableExtraAudioListeners();
             LoadSceneManager.disableEventSystem();

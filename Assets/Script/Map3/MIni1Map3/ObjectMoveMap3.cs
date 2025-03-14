@@ -21,6 +21,7 @@ public class ObjectMove : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         instancePoint = FindAnyObjectByType<InstancePointMini1Map3>();
         startPosition = transform.position;
     }

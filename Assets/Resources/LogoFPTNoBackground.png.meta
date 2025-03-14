@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: fd2af945a5019914892f13495abf5a1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -888286886101311160
+    second: LogoFPTNoBackground_0
+  - first:
+      213: -4078766544655167925
+    second: LogoFPTNoBackground_1
+  - first:
+      213: 6369914625456105782
+    second: LogoFPTNoBackground_2
+  - first:
+      213: -5434329363851306725
+    second: LogoFPTNoBackground_3
+  - first:
+      213: 486980625769429365
+    second: LogoFPTNoBackground_4
+  - first:
+      213: -7416354240448728046
+    second: LogoFPTNoBackground_5
+  - first:
+      213: 3910407388124871488
+    second: LogoFPTNoBackground_6
+  - first:
+      213: 2513143957865165530
+    second: LogoFPTNoBackground_7
+  - first:
+      213: 5945006207000613377
+    second: LogoFPTNoBackground_8
+  - first:
+      213: 2162471086395633751
+    second: LogoFPTNoBackground_9
+  - first:
+      213: 8740427645842874404
+    second: LogoFPTNoBackground_10
+  - first:
+      213: 3299565354385258014
+    second: LogoFPTNoBackground_11
+  - first:
+      213: -790122500942682867
+    second: LogoFPTNoBackground_12
+  - first:
+      213: 3057358641412289439
+    second: LogoFPTNoBackground_13
+  - first:
+      213: 1233093614060536678
+    second: LogoFPTNoBackground_14
+  - first:
+      213: -7212760656973810441
+    second: LogoFPTNoBackground_15
+  - first:
+      213: -2666272038969777490
+    second: LogoFPTNoBackground_16
+  - first:
+      213: -6012312465590830599
+    second: LogoFPTNoBackground_17
+  - first:
+      213: -7314213952364000495
+    second: LogoFPTNoBackground_18
+  - first:
+      213: -8564030676445374559
+    second: LogoFPTNoBackground_19
+  - first:
+      213: -8966537376576920005
+    second: LogoFPTNoBackground_20
+  - first:
+      213: 8495003344992862992
+    second: LogoFPTNoBackground_21
+  - first:
+      213: -2901337788795827522
+    second: LogoFPTNoBackground_22
+  - first:
+      213: 1613156290370569222
+    second: LogoFPTNoBackground_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LogoFPTNoBackground_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 36
+        width: 581
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ccd001668bd564084f58a9f262d200
+      internalID: -2102018015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ab131ab36e311504f8208f8b2b0af787
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LogoFPTNoBackground_0: -2102018015
+      LogoFPTNoBackground_24: 967240081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -10,6 +10,7 @@ public class ChangeObjectMiniMap2 : MonoBehaviour
     public GameObject[] listObjectMini2;
 
     private InstanceVariableMap2 instanceVariableMap2;
+    private InstanceVariables instanceGeneral;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,7 +23,7 @@ public class ChangeObjectMiniMap2 : MonoBehaviour
     {
         if (instanceVariableMap2.objectMini1 == 1)
         {
-            Time.timeScale = 1;
+            instanceGeneral.move = true;
             foreach (var item in listObjectMini1)
             {
                 item.SetActive(false);
@@ -31,7 +32,7 @@ public class ChangeObjectMiniMap2 : MonoBehaviour
         }
         if (instanceVariableMap2.objectMini2 == 1)
         {
-            Time.timeScale = 1;
+            instanceGeneral.move = true;
             foreach (var item in listObjectMini2)
             {
                 item.SetActive(false);

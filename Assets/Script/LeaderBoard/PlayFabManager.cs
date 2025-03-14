@@ -21,7 +21,7 @@ public class PlayFabManager : MonoBehaviour
     void Start()
     {
         instanceGeneral = FindAnyObjectByType<InstanceVariables>();
-        playerName = instanceGeneral.name;
+        playerName = instanceGeneral.nameUser;
         playerScore = instanceGeneral.point;
         // Đặt Title ID của bạn
         PlayFabSettings.staticSettings.TitleId = "135FDD";
@@ -51,7 +51,7 @@ public class PlayFabManager : MonoBehaviour
         SubmitScore(playerScore);
 
         // Lấy leaderboard để hiển thị
-        GetLeaderboard();
+        //GetLeaderboard();
     }
 
     void OnLoginFailure(PlayFabError error)
@@ -73,6 +73,7 @@ public class PlayFabManager : MonoBehaviour
 
     public void SubmitScore(int score)
     {
+        Debug.Log("Đang gửi điểm: " + score);
         if (PlayFabClientAPI.IsClientLoggedIn())
         {
             var request = new UpdatePlayerStatisticsRequest
@@ -84,8 +85,12 @@ public class PlayFabManager : MonoBehaviour
             };
 
             PlayFabClientAPI.UpdatePlayerStatistics(request,
-                result => Debug.Log("Cập nhật điểm thành công!"),
-                error => Debug.LogError("Lỗi cập nhật điểm: " + error.GenerateErrorReport()));
+                result => {
+                    Debug.Log("Cập nhật điểm thành công!" + score);
+                    // Đợi PlayFab cập nhật rồi mới lấy leaderboard
+                    Invoke(nameof(GetLeaderboard), 2.0f);
+                },
+            error => Debug.LogError("Lỗi cập nhật điểm: " + error.GenerateErrorReport()));
         }
         else
         {

@@ -19,7 +19,7 @@ public class ScriptChangeObject : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         miniGame1 = FindAnyObjectByType<InstaceObjectMinigam1>();
         miniGame2 = FindAnyObjectByType<InstaceObjectMinigame2>();
        
@@ -30,6 +30,7 @@ public class ScriptChangeObject : MonoBehaviour
     {
         if (miniGame1.change == 1)
         {
+            instanceGeneral.move = true;
             foreach (var item in objectRac1)
             {
                 item.SetActive(false);
@@ -38,6 +39,7 @@ public class ScriptChangeObject : MonoBehaviour
         }
         if(miniGame2.change == 1)
         {
+            instanceGeneral.move = true;
             foreach (var item in objectRac2)
             {
                 item.SetActive(false);

@@ -35,6 +35,7 @@ public class TraLoiCauHoi : MonoBehaviour
         questionFinish = FindAnyObjectByType<InstanceQuestionFinish>();
         instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         hienThongBao = FindAnyObjectByType<CreateNotification>();
+
         buttonExit.onClick.AddListener(() =>
         {
             if (instanceGeneral.sound) audioClickButton.PlayOneShot(audioClickButton.clip);

@@ -16,6 +16,7 @@ public class InteractUILeaderBoard : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instanceGeneral = FindAnyObjectByType<InstanceVariables>();
         StartCoroutine(HienButton());
         buttonTiep.onClick.AddListener(() =>
         {
