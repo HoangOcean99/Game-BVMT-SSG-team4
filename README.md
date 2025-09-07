@@ -1,7 +1,7 @@
 # 🎯 Project Name
 
-Game-BVMT-SSG-team4 is repository of a game (ECODIAN) which is about protecting environment
-Technical tools: unity, C#, prefab, aseprite
+- Game-BVMT-SSG-team4 is repository of a game (ECODIAN) which is about protecting environment
+- Technical tools: unity, C#, prefab, aseprite
 
 ---
 
